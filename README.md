@@ -1,0 +1,2 @@
+# resource-metadata-schema-ontology
+As part of the European Joint Programme (EJP) for Rare Diseases meta data standards (see https://github.com/ejp-rd-vp/resource-metadata-schema) have been developed for rare disease registries to describe their metadata that will improve the FAIR-ness of these resources. This repository defines the ontology that describes the resource metadata schema based on DCAT 2.0 and EDAM.
