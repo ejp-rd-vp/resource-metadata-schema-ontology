@@ -1,0 +1,5 @@
+ID,Label,Entity Type,Superclass
+ID,LABEL,TYPE,SC %
+ejprd:Biobank,Biobank,class,dcat:Resource
+ejprd:PatientRegistry,Patient registry,class,dcat:Resource
+ejprd:Guideline,Guideline,class,dcat:Resource

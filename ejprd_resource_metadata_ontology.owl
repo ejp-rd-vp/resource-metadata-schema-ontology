@@ -1,0 +1,2134 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.org/ejp-rd/vocabulary/ejprd_resource_metadata_ontology.owl#"
+     xml:base="http://purl.org/ejp-rd/vocabulary/ejprd_resource_metadata_ontology.owl"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:ns="http://www.w3.org/2003/06/sw-vocab-status/ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:dcam="http://purl.org/dc/dcam/"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:prov="http://www.w3.org/ns/prov#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:schema="http://schema.org/"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:resource="http://semanticscience.org/resource/"
+     xmlns:edamontology="http://edamontology.org/">
+    <owl:Ontology rdf:about="http://purl.org/ejp-rd/vocabulary/ejprd_resource_metadata_ontology.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://edamontology.org/created_in -->
+
+    <owl:AnnotationProperty rdf:about="http://edamontology.org/created_in"/>
+    
+
+
+    <!-- http://edamontology.org/isdebtag -->
+
+    <owl:AnnotationProperty rdf:about="http://edamontology.org/isdebtag"/>
+    
+
+
+    <!-- http://edamontology.org/notRecommendedForAnnotation -->
+
+    <owl:AnnotationProperty rdf:about="http://edamontology.org/notRecommendedForAnnotation"/>
+    
+
+
+    <!-- http://purl.org/dc/dcam/rangeIncludes -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/dcam/rangeIncludes"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/identifier -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/identifier"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/conformsTo -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/conformsTo"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/hasVersion -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/hasVersion"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/isPartOf -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/isPartOf"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/issued -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/issued"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/publisher -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/publisher"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/spatial -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/spatial"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+    
+
+
+    <!-- http://schema.org/comment -->
+
+    <owl:AnnotationProperty rdf:about="http://schema.org/comment"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/equivalentTo -->
+
+    <owl:AnnotationProperty rdf:about="http://semanticscience.org/resource/equivalentTo"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/subset -->
+
+    <owl:AnnotationProperty rdf:about="http://semanticscience.org/resource/subset"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDefinition -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDefinition"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasHumanReadableId -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasHumanReadableId"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#inSubset -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#comment -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment">
+        <rdfs:comment xml:lang="en"></rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o#"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2003/06/sw-vocab-status/ns#term_status -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#altLabel -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#altLabel"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#changeNote -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#changeNote"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#definition -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#definition"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#editorialNote -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#editorialNote"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#example -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#example"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#scopeNote -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#scopeNote"/>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#category -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/ns/prov#category"/>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#component -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/ns/prov#component"/>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#constraints -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/ns/prov#constraints"/>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#definition -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/ns/prov#definition">
+        <rdfs:comment xml:lang="en">A definition quoted from PROV-DM or PROV-CONSTRAINTS that describes the concept expressed with this OWL term.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o#"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#dm -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/ns/prov#dm">
+        <rdfs:comment xml:lang="en">A reference to the principal section of the PROV-DM document that describes this concept.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o#"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#editorialNote -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/ns/prov#editorialNote"/>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#inverse -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/ns/prov#inverse"/>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#n -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/ns/prov#n"/>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#qualifiedForm -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/ns/prov#qualifiedForm"/>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#sharesDefinitionWith -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/ns/prov#sharesDefinitionWith"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#date -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#date"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/terms/format -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/dc/terms/format"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/subject -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/dc/terms/subject"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/SIO_000001 -->
+
+    <owl:ObjectProperty rdf:about="http://semanticscience.org/resource/SIO_000001">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://semanticscience.org/resource/SIO_000000"/>
+        <rdfs:range rdf:resource="http://semanticscience.org/resource/SIO_000000"/>
+        <dc:identifier>SIO_000001</dc:identifier>
+        <terms:description xml:lang="en">A is related to B iff there is some relation between A and B.</terms:description>
+        <schema:comment>&apos;is related to&apos; is the top level relation in SIO</schema:comment>
+        <resource:subset>core</resource:subset>
+        <resource:subset>relations+</resource:subset>
+        <rdfs:isDefinedBy rdf:resource="http://semanticscience.org/ontology/sio.owl"/>
+        <rdfs:label xml:lang="en">is related to</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://semanticscience.org/resource/SIO_000028 -->
+
+    <owl:ObjectProperty rdf:about="http://semanticscience.org/resource/SIO_000028">
+        <rdfs:subPropertyOf rdf:resource="http://semanticscience.org/resource/SIO_000145"/>
+        <owl:inverseOf rdf:resource="http://semanticscience.org/resource/SIO_000068"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ReflexiveProperty"/>
+        <dc:identifier>SIO_000028</dc:identifier>
+        <terms:description xml:lang="en">has part is a transitive, reflexive and antisymmetric relation between a whole and itself or a whole and its part.</terms:description>
+        <rdfs:isDefinedBy rdf:resource="http://semanticscience.org/ontology/sio.owl"/>
+        <rdfs:label xml:lang="en">has part</rdfs:label>
+        <skos:example xml:lang="en">a collection of cars has as a car as a part;a car has an engine as a part; a car has a piston as a part;</skos:example>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://semanticscience.org/resource/SIO_000061 -->
+
+    <owl:ObjectProperty rdf:about="http://semanticscience.org/resource/SIO_000061">
+        <rdfs:subPropertyOf rdf:resource="http://semanticscience.org/resource/SIO_000322"/>
+        <owl:inverseOf rdf:resource="http://semanticscience.org/resource/SIO_000145"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <dc:identifier>SIO_000061</dc:identifier>
+        <terms:description xml:lang="en">A is located in B iff the spatialtemporial region occupied by A is part of the spatialtemporal region occupied by B. [T][R]</terms:description>
+        <resource:equivalentTo>OBO_REL:located_in</resource:equivalentTo>
+        <resource:subset>core</resource:subset>
+        <rdfs:isDefinedBy rdf:resource="http://semanticscience.org/ontology/sio.owl"/>
+        <rdfs:label xml:lang="en">is located in</rdfs:label>
+        <skos:example xml:lang="en">A parasite in the interior of a person&apos;s intestine is located in their intestinal lumen.</skos:example>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://semanticscience.org/resource/SIO_000068 -->
+
+    <owl:ObjectProperty rdf:about="http://semanticscience.org/resource/SIO_000068">
+        <rdfs:subPropertyOf rdf:resource="http://semanticscience.org/resource/SIO_000061"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ReflexiveProperty"/>
+        <dc:identifier>SIO_000068</dc:identifier>
+        <terms:description xml:lang="en">is part of is a transitive, reflexive and anti-symmetric mereological relation between a whole and itself or a part and its whole.</terms:description>
+        <resource:equivalentTo>OBO_REL:part_of</resource:equivalentTo>
+        <resource:subset>core</resource:subset>
+        <rdfs:isDefinedBy rdf:resource="http://semanticscience.org/ontology/sio.owl"/>
+        <rdfs:label xml:lang="en">is part of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://semanticscience.org/resource/SIO_000145 -->
+
+    <owl:ObjectProperty rdf:about="http://semanticscience.org/resource/SIO_000145">
+        <rdfs:subPropertyOf rdf:resource="http://semanticscience.org/resource/SIO_000322"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <dc:identifier>SIO_000145</dc:identifier>
+        <terms:description xml:lang="en">A is location of B iff the spatialtemporal region occupied by A has the spatialtemporal region occupied by B as a part. [T][R]</terms:description>
+        <resource:subset>nlp+</resource:subset>
+        <rdfs:isDefinedBy rdf:resource="http://semanticscience.org/ontology/sio.owl"/>
+        <rdfs:label xml:lang="en">is location of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://semanticscience.org/resource/SIO_000212 -->
+
+    <owl:ObjectProperty rdf:about="http://semanticscience.org/resource/SIO_000212">
+        <rdfs:subPropertyOf rdf:resource="http://semanticscience.org/resource/SIO_000001"/>
+        <owl:inverseOf rdf:resource="http://semanticscience.org/resource/SIO_000628"/>
+        <dc:identifier>SIO_000212</dc:identifier>
+        <terms:description xml:lang="en">A is referred to by B iff B is an informational entity that makes reference to A.</terms:description>
+        <rdfs:isDefinedBy rdf:resource="http://semanticscience.org/ontology/sio.owl"/>
+        <rdfs:label xml:lang="en">is referred to by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://semanticscience.org/resource/SIO_000322 -->
+
+    <owl:ObjectProperty rdf:about="http://semanticscience.org/resource/SIO_000322">
+        <rdfs:subPropertyOf rdf:resource="http://semanticscience.org/resource/SIO_000001"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <dc:identifier>SIO_000322</dc:identifier>
+        <terms:description xml:lang="en">A is spatiotemporally related to B iff A is in the spatial or temporal vicinity of B</terms:description>
+        <resource:subset>core</resource:subset>
+        <rdfs:isDefinedBy rdf:resource="http://semanticscience.org/ontology/sio.owl"/>
+        <rdfs:label xml:lang="en">is spatiotemporally related to</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://semanticscience.org/resource/SIO_000325 -->
+
+    <owl:ObjectProperty rdf:about="http://semanticscience.org/resource/SIO_000325">
+        <rdfs:subPropertyOf rdf:resource="http://semanticscience.org/resource/SIO_000322"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ReflexiveProperty"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://semanticscience.org/resource/SIO_000325"/>
+            <rdf:Description rdf:about="http://semanticscience.org/resource/SIO_000068"/>
+        </owl:propertyChainAxiom>
+        <dc:identifier>SIO_000325</dc:identifier>
+        <terms:description xml:lang="en">A overlaps with B iff there is some C that is part of both A and B. [S][R]</terms:description>
+        <rdfs:isDefinedBy rdf:resource="http://semanticscience.org/ontology/sio.owl"/>
+        <rdfs:label xml:lang="en">overlaps with</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://semanticscience.org/resource/SIO_000628 -->
+
+    <owl:ObjectProperty rdf:about="http://semanticscience.org/resource/SIO_000628">
+        <rdfs:subPropertyOf rdf:resource="http://semanticscience.org/resource/SIO_000001"/>
+        <dc:identifier>SIO_000628</dc:identifier>
+        <terms:description xml:lang="en">refers to is a relation between one entity and the entity that it makes reference to.</terms:description>
+        <resource:subset>core</resource:subset>
+        <resource:subset>nlp+</resource:subset>
+        <rdfs:isDefinedBy rdf:resource="http://semanticscience.org/ontology/sio.owl"/>
+        <rdfs:label xml:lang="en">refers to</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://semanticscience.org/resource/SIO_000668 -->
+
+    <owl:ObjectProperty rdf:about="http://semanticscience.org/resource/SIO_000668">
+        <rdfs:subPropertyOf rdf:resource="http://semanticscience.org/resource/SIO_000628"/>
+        <owl:inverseOf rdf:resource="http://semanticscience.org/resource/SIO_000892"/>
+        <dc:identifier>SIO_000668</dc:identifier>
+        <terms:description xml:lang="en">in relation to is a comparative relation to indicate that the instance of the class holding the relation exists in relation to another entity.</terms:description>
+        <resource:subset>core</resource:subset>
+        <rdfs:isDefinedBy rdf:resource="http://semanticscience.org/ontology/sio.owl"/>
+        <rdfs:label xml:lang="en">in relation to</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://semanticscience.org/resource/SIO_000892 -->
+
+    <owl:ObjectProperty rdf:about="http://semanticscience.org/resource/SIO_000892">
+        <rdfs:subPropertyOf rdf:resource="http://semanticscience.org/resource/SIO_000212"/>
+        <dc:identifier>SIO_000892</dc:identifier>
+        <terms:description xml:lang="en">a in relation from b is a comparative relation in a is the object of reference in a relation with b. </terms:description>
+        <rdfs:isDefinedBy rdf:resource="http://semanticscience.org/ontology/sio.owl"/>
+        <rdfs:label xml:lang="en">in relation from</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/dcat#accessURL -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/dcat#accessURL">
+        <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+        <rdfs:comment xml:lang="en">A URL of a resource that gives access to a distribution of the dataset. E.g. landing page, feed, SPARQL endpoint. Use for all cases except a simple download link, in which case downloadURL is preferred.</rdfs:comment>
+        <rdfs:comment xml:lang="fr">Ceci peut être tout type d&apos;URL qui donne accès à une distribution du jeu de données. Par exemple, un lien à une page HTML contenant un lien au jeu de données, un Flux RSS, un point d&apos;accès SPARQL. Utilisez le lorsque votre catalogue ne contient pas d&apos;information sur quoi il est ou quand ce n&apos;est pas téléchargeable.</rdfs:comment>
+        <rdfs:comment xml:lang="da">En URL for en ressource som giver adgang til en repræsentation af datsættet. Fx destinationsside, feed, SPARQL-endpoint. Anvendes i alle sammenhænge undtagen til angivelse af et simpelt download link hvor anvendelse af egenskaben downloadURL foretrækkes.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Puede ser cualquier tipo de URL que de acceso a una distribución del conjunto de datos, e.g., página de destino, descarga, URL feed, punto de acceso SPARQL. Esta propriedad se debe usar cuando su catálogo de datos no tiene información sobre donde está o cuando no se puede descargar.</rdfs:comment>
+        <rdfs:comment xml:lang="cs">URL zdroje, přes které je přístupná distribuce datové sady. Příkladem může být vstupní stránka, RSS kanál či SPARQL endpoint. Použijte ve všech případech kromě URL souboru ke stažení, pro které je lepší použít dcat:downloadURL.</rdfs:comment>
+        <rdfs:comment xml:lang="it">Un URL di una risorsa che consente di accedere a una distribuzione del set di dati. Per esempio, pagina di destinazione, feed, endpoint SPARQL. Da utilizzare per tutti i casi, tranne  quando  si tratta di un semplice link per il download nel qual caso è preferito downloadURL.</rdfs:comment>
+        <rdfs:comment xml:lang="el">Μπορεί να είναι οποιουδήποτε είδους URL που δίνει πρόσβαση στη διανομή ενός συνόλου δεδομένων. Π.χ. ιστοσελίδα αρχικής πρόσβασης, μεταφόρτωση, feed URL, σημείο διάθεσης SPARQL. Να χρησιμοποιείται όταν ο κατάλογος δεν περιέχει πληροφορίες εαν πρόκειται ή όχι για μεταφορτώσιμο αρχείο.</rdfs:comment>
+        <rdfs:comment xml:lang="ar">أي رابط يتيح الوصول إلى البيانات. إذا كان الرابط هو ربط مباشر لملف يمكن تحميله استخدم الخاصية downloadURL</rdfs:comment>
+        <rdfs:comment xml:lang="ja">データセットの配信にアクセス権を与えるランディング・ページ、フィード、SPARQLエンドポイント、その他の種類の資源。</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/TR/vocab-dcat/"/>
+        <rdfs:label xml:lang="fr">URL d&apos;accès</rdfs:label>
+        <rdfs:label xml:lang="es">URL de acceso</rdfs:label>
+        <rdfs:label xml:lang="el">URL πρόσβασης</rdfs:label>
+        <rdfs:label xml:lang="en">access address</rdfs:label>
+        <rdfs:label xml:lang="da">adgangsadresse</rdfs:label>
+        <rdfs:label xml:lang="it">indirizzo di accesso</rdfs:label>
+        <rdfs:label xml:lang="cs">přístupová adresa</rdfs:label>
+        <rdfs:label xml:lang="ar">رابط وصول</rdfs:label>
+        <rdfs:label xml:lang="ja">アクセスURL</rdfs:label>
+        <skos:altLabel xml:lang="da">adgangsURL</skos:altLabel>
+        <skos:definition xml:lang="en">A URL of a resource that gives access to a distribution of the dataset. E.g. landing page, feed, SPARQL endpoint. Use for all cases except a simple download link, in which case downloadURL is preferred.</skos:definition>
+        <skos:definition xml:lang="fr">Ceci peut être tout type d&apos;URL qui donne accès à une distribution du jeu de données. Par exemple, un lien à une page HTML contenant un lien au jeu de données, un Flux RSS, un point d&apos;accès SPARQL. Utilisez le lorsque votre catalogue ne contient pas d&apos;information sur quoi il est ou quand ce n&apos;est pas téléchargeable.</skos:definition>
+        <skos:definition xml:lang="da">En URL for en ressource som giver adgang til en repræsentation af datsættet. Fx destinationsside, feed, SPARQL-endpoint. Anvendes i alle sammenhænge undtagen til angivelse af et simpelt download link hvor anvendelse af egenskaben downloadURL foretrækkes.</skos:definition>
+        <skos:definition xml:lang="es">Puede ser cualquier tipo de URL que de acceso a una distribución del conjunto de datos, e.g., página de destino, descarga, URL feed, punto de acceso SPARQL. Esta propriedad se debe usar cuando su catálogo de datos no tiene información sobre donde está o cuando no se puede descargar.</skos:definition>
+        <skos:definition xml:lang="cs">URL zdroje, přes které je přístupná distribuce datové sady. Příkladem může být vstupní stránka, RSS kanál či SPARQL endpoint. Použijte ve všech případech kromě URL souboru ke stažení, pro které je lepší použít dcat:downloadURL.</skos:definition>
+        <skos:definition xml:lang="it">Un URL di una risorsa che consente di accedere a una distribuzione del set di dati. Per esempio, pagina di destinazione, feed, endpoint SPARQL. Da utilizzare per tutti i casi, tranne  quando  si tratta di un semplice link per il download nel qual caso è preferito downloadURL.</skos:definition>
+        <skos:definition xml:lang="el">Μπορεί να είναι οποιουδήποτε είδους URL που δίνει πρόσβαση στη διανομή ενός συνόλου δεδομένων. Π.χ. ιστοσελίδα αρχικής πρόσβασης, μεταφόρτωση, feed URL, σημείο διάθεσης SPARQL. Να χρησιμοποιείται όταν ο κατάλογος δεν περιέχει πληροφορίες εαν πρόκειται ή όχι για μεταφορτώσιμο αρχείο.</skos:definition>
+        <skos:definition xml:lang="ar">أي رابط يتيح الوصول إلى البيانات. إذا كان الرابط هو ربط مباشر لملف يمكن تحميله استخدم الخاصية downloadURL</skos:definition>
+        <skos:definition xml:lang="ja">データセットの配信にアクセス権を与えるランディング・ページ、フィード、SPARQLエンドポイント、その他の種類の資源。</skos:definition>
+        <skos:editorialNote xml:lang="en">Status: English Definition text modified by DCAT revision team, updated Italian and Czech translation provided, translations for other languages pending.</skos:editorialNote>
+        <skos:editorialNote xml:lang="en">rdfs:label, rdfs:comment and skos:scopeNote have been modified. Non-english versions except for Italian must be updated.</skos:editorialNote>
+        <skos:scopeNote xml:lang="es">El rango es una URL. Si la distribución es accesible solamente través de una página de destino (es decir, si no se conoce una URL de descarga directa), entonces el enlance a la página de destino debe ser duplicado como accessURL en la distribución.</skos:scopeNote>
+        <skos:scopeNote xml:lang="da">Hvis en eller flere distributioner kun er tilgængelige via en destinationsside (dvs. en URL til direkte download er ikke kendt), så bør destinationssidelinket gentages som adgangsadresse for distributionen.</skos:scopeNote>
+        <skos:scopeNote xml:lang="en">If the distribution(s) are accessible only through a landing page (i.e. direct download URLs are not known), then the landing page link should be duplicated as accessURL on a distribution.</skos:scopeNote>
+        <skos:scopeNote xml:lang="fr">La valeur est une URL. Si la distribution est accessible seulement au travers d&apos;une page d&apos;atterrissage (c-à-dire on n&apos;ignore une URL de téléchargement direct), alors le lien à la page d&apos;atterrissage doit être dupliqué comee accessURL sur la distribution.</skos:scopeNote>
+        <skos:scopeNote xml:lang="cs">Pokud jsou distribuce přístupné pouze přes vstupní stránku (tj. URL pro přímé stažení nejsou známa), pak by URL přístupové stránky mělo být duplikováno ve vlastnosti distribuce accessURL.</skos:scopeNote>
+        <skos:scopeNote xml:lang="it">Se le distribuzioni sono accessibili solo attraverso una pagina web (ad esempio, gli URL per il download diretto non sono noti), allora il link della pagina web deve essere duplicato come accessURL sulla distribuzione.</skos:scopeNote>
+        <skos:scopeNote xml:lang="el">Η τιμή είναι ένα URL. Αν η/οι διανομή/ές είναι προσβάσιμη/ες μόνο μέσω μίας ιστοσελίδας αρχικής πρόσβασης (δηλαδή αν δεν υπάρχουν γνωστές διευθύνσεις άμεσης μεταφόρτωσης), τότε ο σύνδεσμος της ιστοσελίδας αρχικής πρόσβασης πρέπει να αναπαραχθεί ως accessURL σε μία διανομή.</skos:scopeNote>
+        <skos:scopeNote xml:lang="ja">確実にダウンロードでない場合や、ダウンロードかどうかが不明である場合は、downloadURLではなく、accessURLを用いてください。ランディング・ページを通じてしか配信にアクセスできない場合（つまり、直接的なダウンロードURLが不明）は、配信におけるaccessURLとしてランディング・ページのリンクをコピーすべきです（SHOULD）。</skos:scopeNote>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/dcat#distribution -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/dcat#distribution">
+        <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+        <rdfs:range rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+        <rdfs:comment xml:lang="en">An available distribution of the dataset.</rdfs:comment>
+        <rdfs:comment xml:lang="fr">Connecte un jeu de données à des distributions disponibles.</rdfs:comment>
+        <rdfs:comment xml:lang="cs">Dostupná distribuce datové sady.</rdfs:comment>
+        <rdfs:comment xml:lang="da">En tilgængelig repræsentation af datasættet.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Una distribución disponible del conjunto de datos.</rdfs:comment>
+        <rdfs:comment xml:lang="it">Una distribuzione disponibile per il set di dati.</rdfs:comment>
+        <rdfs:comment xml:lang="el">Συνδέει ένα σύνολο δεδομένων με μία από τις διαθέσιμες διανομές του.</rdfs:comment>
+        <rdfs:comment xml:lang="ar">تربط قائمة البيانات بطريقة أو بشكل يسمح  الوصول الى البيانات</rdfs:comment>
+        <rdfs:comment xml:lang="ja">データセットを、その利用可能な配信に接続します。</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/TR/vocab-dcat/"/>
+        <rdfs:label xml:lang="cs">distribuce</rdfs:label>
+        <rdfs:label xml:lang="es">distribución</rdfs:label>
+        <rdfs:label xml:lang="da">distribution</rdfs:label>
+        <rdfs:label xml:lang="en">distribution</rdfs:label>
+        <rdfs:label xml:lang="fr">distribution</rdfs:label>
+        <rdfs:label xml:lang="it">distribuzione</rdfs:label>
+        <rdfs:label xml:lang="el">διανομή</rdfs:label>
+        <rdfs:label xml:lang="ar">توزيع</rdfs:label>
+        <rdfs:label xml:lang="ja">データセット配信</rdfs:label>
+        <skos:altLabel xml:lang="da">har distribution</skos:altLabel>
+        <skos:definition xml:lang="en">An available distribution of the dataset.</skos:definition>
+        <skos:definition xml:lang="fr">Connecte un jeu de données à des distributions disponibles.</skos:definition>
+        <skos:definition xml:lang="cs">Dostupná distribuce datové sady.</skos:definition>
+        <skos:definition xml:lang="da">En tilgængelig repræsentation af datasættet.</skos:definition>
+        <skos:definition xml:lang="es">Una distribución disponible del conjunto de datos.</skos:definition>
+        <skos:definition xml:lang="it">Una distribuzione disponibile per il set di dati.</skos:definition>
+        <skos:definition xml:lang="el">Συνδέει ένα σύνολο δεδομένων με μία από τις διαθέσιμες διανομές του.</skos:definition>
+        <skos:definition xml:lang="ar">تربط قائمة البيانات بطريقة أو بشكل يسمح  الوصول الى البيانات</skos:definition>
+        <skos:definition xml:lang="ja">データセットを、その利用可能な配信に接続します。</skos:definition>
+        <skos:editorialNote xml:lang="en">Status: English Definition text modified by DCAT revision team, translations pending (except for Italian, Spanish and Czech).</skos:editorialNote>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/dcat#downloadURL -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/dcat#downloadURL">
+        <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+        <rdfs:comment xml:lang="fr">Ceci est un lien direct à un fichier téléchargeable en un format donnée. Exple fichier CSV ou RDF. Le format est décrit par les propriétés de distribution dct:format et/ou dcat:mediaType.</rdfs:comment>
+        <rdfs:comment xml:lang="es">La URL de un archivo descargable en el formato dato. Por ejemplo, archivo CSV o archivo RDF. El formato se describe con las propiedades de la distribución dct:format y/o dcat:mediaType.</rdfs:comment>
+        <rdfs:comment xml:lang="it">Questo è un link diretto al file scaricabile in un dato formato. E.g. un file CSV o un file RDF. Il formato è descritto dal dct:format e/o dal dcat:mediaType della distribuzione.</rdfs:comment>
+        <rdfs:comment xml:lang="en">The URL of the downloadable file in a given format. E.g. CSV file or RDF file. The format is indicated by the distribution&apos;s dct:format and/or dcat:mediaType.</rdfs:comment>
+        <rdfs:comment xml:lang="cs">URL souboru ke stažení v daném formátu, například CSV nebo RDF soubor. Formát je popsán vlastností distribuce dct:format a/nebo dcat:mediaType.</rdfs:comment>
+        <rdfs:comment xml:lang="da">URL til fil der kan downloades i et bestemt format. Fx en CSV-fil eller en RDF-fil. Formatet for distributionen angives ved hjælp af egenskaberne dct:format og/eller dcat:mediaType.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">dcat:downloadURLはdcat:accessURLの特定の形式です。しかし、DCATプロファイルが非ダウンロード・ロケーションに対してのみaccessURLを用いる場合には、より強い分離を課すことを望む可能性があるため、この含意を強化しないように、DCATは、dcat:downloadURLをdcat:accessURLのサブプロパティーであると定義しません。</rdfs:comment>
+        <rdfs:comment xml:lang="el">Είναι ένας σύνδεσμος άμεσης μεταφόρτωσης ενός αρχείου σε μια δεδομένη μορφή. Π.χ. ένα αρχείο CSV ή RDF. Η μορφη αρχείου περιγράφεται από τις ιδιότητες dct:format ή/και dcat:mediaType της διανομής.</rdfs:comment>
+        <rdfs:comment xml:lang="ar">رابط مباشر لملف يمكن تحميله. نوع الملف يتم توصيفه باستخدام الخاصية dct:format dcat:mediaType </rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/TR/vocab-dcat/"/>
+        <rdfs:label xml:lang="es">URL de descarga</rdfs:label>
+        <rdfs:label xml:lang="fr">URL de téléchargement</rdfs:label>
+        <rdfs:label xml:lang="it">URL di scarico</rdfs:label>
+        <rdfs:label xml:lang="cs">URL souboru ke stažení</rdfs:label>
+        <rdfs:label xml:lang="el">URL μεταφόρτωσης</rdfs:label>
+        <rdfs:label xml:lang="en">download URL</rdfs:label>
+        <rdfs:label xml:lang="da">downloadURL</rdfs:label>
+        <rdfs:label xml:lang="ar">رابط تحميل</rdfs:label>
+        <rdfs:label xml:lang="ja">ダウンロードURL</rdfs:label>
+        <skos:definition xml:lang="fr">Ceci est un lien direct à un fichier téléchargeable en un format donnée. Exple fichier CSV ou RDF. Le format est décrit par les propriétés de distribution dct:format et/ou dcat:mediaType.</skos:definition>
+        <skos:definition xml:lang="es">La URL de un archivo descargable en el formato dato. Por ejemplo, archivo CSV o archivo RDF. El formato se describe con las propiedades de la distribución dct:format y/o dcat:mediaType.</skos:definition>
+        <skos:definition xml:lang="it">Questo è un link diretto al file scaricabile in un dato formato. E.g. un file CSV o un file RDF. Il formato è descritto dal dct:format e/o dal dcat:mediaType della distribuzione.</skos:definition>
+        <skos:definition xml:lang="en">The URL of the downloadable file in a given format. E.g. CSV file or RDF file. The format is indicated by the distribution&apos;s dct:format and/or dcat:mediaType.</skos:definition>
+        <skos:definition xml:lang="cs">URL souboru ke stažení v daném formátu, například CSV nebo RDF soubor. Formát je popsán vlastností distribuce dct:format a/nebo dcat:mediaType.</skos:definition>
+        <skos:definition xml:lang="da">URL til fil der kan downloades i et bestemt format. Fx en CSV-fil eller en RDF-fil. Formatet for distributionen angives ved hjælp af egenskaberne dct:format og/eller dcat:mediaType.</skos:definition>
+        <skos:definition xml:lang="ja">dcat:downloadURLはdcat:accessURLの特定の形式です。しかし、DCATプロファイルが非ダウンロード・ロケーションに対してのみaccessURLを用いる場合には、より強い分離を課すことを望む可能性があるため、この含意を強化しないように、DCATは、dcat:downloadURLをdcat:accessURLのサブプロパティーであると定義しません。</skos:definition>
+        <skos:definition xml:lang="el">Είναι ένας σύνδεσμος άμεσης μεταφόρτωσης ενός αρχείου σε μια δεδομένη μορφή. Π.χ. ένα αρχείο CSV ή RDF. Η μορφη αρχείου περιγράφεται από τις ιδιότητες dct:format ή/και dcat:mediaType της διανομής.</skos:definition>
+        <skos:definition xml:lang="ar">رابط مباشر لملف يمكن تحميله. نوع الملف يتم توصيفه باستخدام الخاصية dct:format dcat:mediaType </skos:definition>
+        <skos:editorialNote xml:lang="en">Status: English  Definition text modified by DCAT revision team, Italian, Spanish and Czech translation updated, other translations pending.</skos:editorialNote>
+        <skos:editorialNote xml:lang="en">rdfs:label, rdfs:comment and/or skos:scopeNote have been modified. Non-english versions must be updated.</skos:editorialNote>
+        <skos:scopeNote xml:lang="es">El valor es una URL.</skos:scopeNote>
+        <skos:scopeNote xml:lang="fr">La valeur est une URL.</skos:scopeNote>
+        <skos:scopeNote xml:lang="cs">dcat:downloadURL BY MĚLA být použita pro adresu, ze které je distribuce přímo přístupná, typicky skrze požadavek HTTP Get.</skos:scopeNote>
+        <skos:scopeNote xml:lang="da">dcat:downloadURL BØR anvendes til angivelse af den adresse hvor distributionen er tilgængelig direkte, typisk gennem et HTTP Get request.</skos:scopeNote>
+        <skos:scopeNote xml:lang="it">dcat:downloadURL DOVREBBE essere utilizzato per l&apos;indirizzo a cui questa distribuzione è disponibile direttamente, in genere attraverso una richiesta Get HTTP.</skos:scopeNote>
+        <skos:scopeNote xml:lang="en">dcat:downloadURL SHOULD be used for the address at which this distribution is available directly, typically through a HTTP Get request.</skos:scopeNote>
+        <skos:scopeNote xml:lang="el">Η τιμή είναι ένα URL.</skos:scopeNote>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/dcat#endpointURL -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/dcat#endpointURL">
+        <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#DataService"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+        <rdfs:comment xml:lang="cs">Kořenové umístění nebo hlavní přístupový bod služby (IRI přístupné přes Web).</rdfs:comment>
+        <rdfs:comment xml:lang="it">La locazione principale o l&apos;endpoint primario del servizio (un IRI risolvibile via web).</rdfs:comment>
+        <rdfs:comment xml:lang="es">La posición raíz o end-point principal del servicio (una IRI web).</rdfs:comment>
+        <rdfs:comment xml:lang="da">Rodplaceringen eller det primære endpoint for en tjeneste (en web-resolverbar IRI).</rdfs:comment>
+        <rdfs:comment xml:lang="en">The root location or primary endpoint of the service (a web-resolvable IRI).</rdfs:comment>
+        <rdfs:label xml:lang="es">end-point del servicio</rdfs:label>
+        <rdfs:label xml:lang="it">end-point del servizio</rdfs:label>
+        <rdfs:label xml:lang="cs">přístupový bod služby</rdfs:label>
+        <rdfs:label xml:lang="en">service end-point</rdfs:label>
+        <rdfs:label xml:lang="da">tjenesteendpoint</rdfs:label>
+        <skos:changeNote xml:lang="en">New property in DCAT 2.0.</skos:changeNote>
+        <skos:changeNote xml:lang="cs">Nová vlastnost přidaná ve verzi DCAT 2.0.</skos:changeNote>
+        <skos:changeNote xml:lang="es">Nueva propiedad agregada en DCAT 2.0.</skos:changeNote>
+        <skos:changeNote xml:lang="it">Nuova proprietà in DCAT 2.0.</skos:changeNote>
+        <skos:definition xml:lang="cs">Kořenové umístění nebo hlavní přístupový bod služby (IRI přístupné přes Web).</skos:definition>
+        <skos:definition xml:lang="it">La locazione principale o l&apos;endpoint primario del servizio (un IRI risolvibile via web).</skos:definition>
+        <skos:definition xml:lang="es">La posición raíz o end-point principal del servicio (una IRI web).</skos:definition>
+        <skos:definition xml:lang="da">Rodplaceringen eller det primære endpoint for en tjeneste (en web-resolverbar IRI).</skos:definition>
+        <skos:definition xml:lang="en">The root location or primary endpoint of the service (a web-resolvable IRI).</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/dcat#landingPage -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/dcat#landingPage">
+        <rdfs:subPropertyOf rdf:resource="http://xmlns.com/foaf/0.1/page"/>
+        <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+        <rdfs:comment xml:lang="en">A Web page that can be navigated to in a Web browser to gain access to the catalog, a dataset, its distributions and/or additional information.</rdfs:comment>
+        <rdfs:comment xml:lang="da">En webside som der kan navigeres til i en webbrowser for at få adgang til kataloget, et datasæt, dets distributioner og/eller yderligere information.</rdfs:comment>
+        <rdfs:comment xml:lang="it">Una pagina web che può essere navigata per ottenere l&apos;accesso al catalogo, ad un dataset, alle distribuzioni del dataset e/o ad informazioni addizionali.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Una página web que puede ser visitada en un explorador Web para tener acceso el catálogo, un conjunto de datos, sus distribuciones y/o información adicional.</rdfs:comment>
+        <rdfs:comment xml:lang="fr">Une page Web accessible par un navigateur Web donnant accès au catalogue, un jeu de données, ses distributions et/ou des informations additionnelles.</rdfs:comment>
+        <rdfs:comment xml:lang="cs">Webová stránka, na kterou lze pro získání přístupu ke katalogu, datové sadě, jejím distribucím a/nebo dalším informacím přistoupit webovým prohlížečem.</rdfs:comment>
+        <rdfs:comment xml:lang="el">Μία ιστοσελίδα πλοηγίσιμη μέσω ενός φυλλομετρητή (Web browser) που δίνει πρόσβαση στο σύνολο δεδομένων, τις διανομές αυτού ή/και επιπρόσθετες πληροφορίες.</rdfs:comment>
+        <rdfs:comment xml:lang="ar">صفحة وب يمكن من خلالها الوصول الى قائمة البيانات أو إلى معلومات إضافية متعلقة بها </rdfs:comment>
+        <rdfs:comment xml:lang="ja">データセット、その配信および（または）追加情報にアクセスするためにウエブ・ブラウザでナビゲートできるウェブページ。</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/TR/vocab-dcat/"/>
+        <rdfs:label xml:lang="da">destinationsside</rdfs:label>
+        <rdfs:label xml:lang="en">landing page</rdfs:label>
+        <rdfs:label xml:lang="fr">page d&apos;atterrissage</rdfs:label>
+        <rdfs:label xml:lang="it">pagina di destinazione</rdfs:label>
+        <rdfs:label xml:lang="es">página de destino</rdfs:label>
+        <rdfs:label xml:lang="cs">vstupní stránka</rdfs:label>
+        <rdfs:label xml:lang="el">ιστοσελίδα αρχικής πρόσβασης</rdfs:label>
+        <rdfs:label xml:lang="ar">صفحة وصول</rdfs:label>
+        <rdfs:label xml:lang="ja">ランディング・ページ</rdfs:label>
+        <skos:definition xml:lang="en">A Web page that can be navigated to in a Web browser to gain access to the catalog, a dataset, its distributions and/or additional information.</skos:definition>
+        <skos:definition xml:lang="da">En webside som en webbrowser kan navigeres til for at få adgang til kataloget, et datasæt, dets distritbutioner og/eller yderligere information.</skos:definition>
+        <skos:definition xml:lang="it">Una pagina web che può essere navigata per ottenere l&apos;accesso al catalogo, ad un dataset, alle distribuzioni del dataset e/o ad informazioni addizionali.</skos:definition>
+        <skos:definition xml:lang="es">Una página web que puede ser visitada en un explorador Web para tener acceso el catálogo, un conjunto de datos, sus distribuciones y/o información adicional.</skos:definition>
+        <skos:definition xml:lang="fr">Une page Web accessible par un navigateur Web donnant accès au catalogue, un jeu de données, ses distributions et/ou des informations additionnelles.</skos:definition>
+        <skos:definition xml:lang="cs">Webová stránka, na kterou lze pro získání přístupu ke katalogu, datové sadě, jejím distribucím a/nebo dalším informacím přistoupit webovým prohlížečem.</skos:definition>
+        <skos:definition xml:lang="el">Μία ιστοσελίδα πλοηγίσιμη μέσω ενός φυλλομετρητή (Web browser) που δίνει πρόσβαση στο σύνολο δεδομένων, τις διανομές αυτού ή/και επιπρόσθετες πληροφορίες.</skos:definition>
+        <skos:definition xml:lang="ar">صفحة وب يمكن من خلالها الوصول الى قائمة البيانات أو إلى معلومات إضافية متعلقة بها </skos:definition>
+        <skos:definition xml:lang="ja">データセット、その配信および（または）追加情報にアクセスするためにウエブ・ブラウザでナビゲートできるウェブページ。</skos:definition>
+        <skos:scopeNote xml:lang="da">Hvis en eller flere distributioner kun er tilgængelige via en destinationsside (dvs. en URL til direkte download er ikke kendt), så bør destinationssidelinket gentages som adgangsadresse for en distribution.</skos:scopeNote>
+        <skos:scopeNote xml:lang="en">If the distribution(s) are accessible only through a landing page (i.e. direct download URLs are not known), then the landing page link should be duplicated as accessURL on a distribution.</skos:scopeNote>
+        <skos:scopeNote xml:lang="cs">Pokud je distribuce dostupná pouze přes vstupní stránku, t.j. přímý URL odkaz ke stažení není znám, URL přístupové stránky by mělo být duplikováno ve vlastnosti distribuce accessURL.</skos:scopeNote>
+        <skos:scopeNote xml:lang="it">Se la distribuzione è accessibile solo attraverso una pagina di destinazione (cioè, un URL di download diretto non è noto), il link alla pagina di destinazione deve essere duplicato come accessURL sulla distribuzione.</skos:scopeNote>
+        <skos:scopeNote xml:lang="es">Si la distribución es accesible solamente través de una página de aterrizaje (i.e., no se conoce una URL de descarga directa), entonces el enlance a la página de aterrizaje debe ser duplicado como accessURL sobre la distribución.</skos:scopeNote>
+        <skos:scopeNote xml:lang="fr">Si la distribution est seulement accessible à travers une page d&apos;atterrissage (exple. pas de connaissance d&apos;URLS de téléchargement direct ), alors le lien de la page d&apos;atterrissage doit être dupliqué comme accessURL sur la distribution.</skos:scopeNote>
+        <skos:scopeNote xml:lang="el">Αν η/οι διανομή/ές είναι προσβάσιμη/ες μόνο μέσω μίας ιστοσελίδας αρχικής πρόσβασης (δηλαδή αν δεν υπάρχουν γνωστές διευθύνσεις άμεσης μεταφόρτωσης), τότε ο σύνδεσμος της ιστοσελίδας αρχικής πρόσβασης πρέπει να αναπαραχθεί ως accessURL σε μία διανομή.</skos:scopeNote>
+        <skos:scopeNote xml:lang="ja">ランディング・ページを通じてしか配信にアクセスできない場合（つまり、直接的なダウンロードURLが不明）には、配信におけるaccessURLとしてランディング・ページのリンクをコピーすべきです（SHOULD）。</skos:scopeNote>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/dcat#mediaType -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/dcat#mediaType">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/format"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+        <rdfs:range rdf:resource="http://purl.org/dc/terms/MediaType"/>
+        <rdfs:comment xml:lang="fr">Cette propriété doit être utilisée quand c&apos;est définit le type de média de la distribution en IANA, sinon dct:format DOIT être utilisé avec différentes valeurs.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Esta propiedad debe ser usada cuando está definido el tipo de media de la distribución en IANA, de otra manera dct:format puede ser utilizado con diferentes valores</rdfs:comment>
+        <rdfs:comment xml:lang="it">Il tipo di media della distribuzione come definito da IANA</rdfs:comment>
+        <rdfs:comment xml:lang="da">Medietypen for distributionen som den er defineret af IANA.</rdfs:comment>
+        <rdfs:comment xml:lang="en">The media type of the distribution as defined by IANA</rdfs:comment>
+        <rdfs:comment xml:lang="cs">Typ média distribuce definovaný v IANA.</rdfs:comment>
+        <rdfs:comment xml:lang="el">Η ιδιότητα αυτή ΘΑ ΠΡΕΠΕΙ να χρησιμοποιείται όταν ο τύπος μέσου μίας διανομής είναι ορισμένος στο IANA, αλλιώς η ιδιότητα dct:format ΔΥΝΑΤΑΙ να χρησιμοποιηθεί με διαφορετικές τιμές.</rdfs:comment>
+        <rdfs:comment xml:lang="ar">يجب استخدام هذه الخاصية إذا كان نوع الملف معرف ضمن IANA</rdfs:comment>
+        <rdfs:comment xml:lang="ja">このプロパティーは、配信のメディア・タイプがIANAで定義されているときに使用すべきで（SHOULD）、そうでない場合には、dct:formatを様々な値と共に使用できます（MAY）。</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/TR/vocab-dcat/"/>
+        <rdfs:label xml:lang="en">media type</rdfs:label>
+        <rdfs:label xml:lang="da">medietype</rdfs:label>
+        <rdfs:label xml:lang="es">tipo de media</rdfs:label>
+        <rdfs:label xml:lang="it">tipo di media</rdfs:label>
+        <rdfs:label xml:lang="cs">typ média</rdfs:label>
+        <rdfs:label xml:lang="fr">type de média</rdfs:label>
+        <rdfs:label xml:lang="el">τύπος μέσου</rdfs:label>
+        <rdfs:label xml:lang="ar">نوع الميديا</rdfs:label>
+        <rdfs:label xml:lang="ja">メディア・タイプ</rdfs:label>
+        <skos:changeNote xml:lang="it">Il range di dcat:mediaType è stato ristretto  come parte della revisione di DCAT.</skos:changeNote>
+        <skos:changeNote xml:lang="cs">Obor hodnot dcat:mediaType byl zúžen v této revizi DCAT.</skos:changeNote>
+        <skos:changeNote xml:lang="en">The range of dcat:mediaType has been tightened as part of the revision of DCAT.</skos:changeNote>
+        <skos:definition xml:lang="fr">Cette propriété doit être utilisée quand c&apos;est définit le type de média de la distribution en IANA, sinon dct:format DOIT être utilisé avec différentes valeurs.</skos:definition>
+        <skos:definition xml:lang="es">Esta propiedad debe ser usada cuando está definido el tipo de media de la distribución en IANA, de otra manera dct:format puede ser utilizado con diferentes valores.</skos:definition>
+        <skos:definition xml:lang="it">Il tipo di media della distribuzione come definito da IANA.</skos:definition>
+        <skos:definition xml:lang="da">Medietypen for distributionen som den er defineret af IANA.</skos:definition>
+        <skos:definition xml:lang="en">The media type of the distribution as defined by IANA.</skos:definition>
+        <skos:definition xml:lang="cs">Typ média distribuce definovaný v IANA.</skos:definition>
+        <skos:definition xml:lang="el">Η ιδιότητα αυτή ΘΑ ΠΡΕΠΕΙ να χρησιμοποιείται όταν ο τύπος μέσου μίας διανομής είναι ορισμένος στο IANA, αλλιώς η ιδιότητα dct:format ΔΥΝΑΤΑΙ να χρησιμοποιηθεί με διαφορετικές τιμές.</skos:definition>
+        <skos:definition xml:lang="ar">يجب استخدام هذه الخاصية إذا كان نوع الملف معرف ضمن IANA</skos:definition>
+        <skos:definition xml:lang="ja">このプロパティーは、配信のメディア・タイプがIANAで定義されているときに使用すべきで（SHOULD）、そうでない場合には、dct:formatを様々な値と共に使用できます（MAY）。</skos:definition>
+        <skos:editorialNote xml:lang="en">Status: English Definition text modified by DCAT revision team, Italian and Czech translation provided, other translations pending. Note some inconsistency on def vs. usage.</skos:editorialNote>
+        <skos:scopeNote xml:lang="da">Denne egenskab BØR anvendes hvis distributionens medietype optræder i &apos;IANA media types registry&apos; https://www.iana.org/assignments/media-types/, ellers KAN egenskaben dct:format anvendes med et andet udfaldsrum.</skos:scopeNote>
+        <skos:scopeNote xml:lang="es">Esta propiedad DEBERÍA usarse cuando el &apos;media type&apos; de la distribución está definido en el registro IANA de &apos;media types&apos; https://www.iana.org/assignments/media-types/, de lo contrario, dct:format PUEDE usarse con distintos valores.</skos:scopeNote>
+        <skos:scopeNote xml:lang="it">Questa proprietà DEVE essere usata quando il tipo di media della distribuzione è definito nel registro dei tipi di media IANA https://www.iana.org/assignments/media-types/, altrimenti dct:format PUO &apos;essere usato con differenti valori.</skos:scopeNote>
+        <skos:scopeNote xml:lang="cs">Tato vlastnost BY MĚLA být použita, je-li typ média distribuce definován v registru IANA https://www.iana.org/assignments/media-types/. V ostatních případech MŮŽE být použita vlastnost dct:format s jinými hodnotami.</skos:scopeNote>
+        <skos:scopeNote xml:lang="en">This property SHOULD be used when the media type of the distribution is defined in the IANA media types registry https://www.iana.org/assignments/media-types/, otherwise dct:format MAY be used with different values.</skos:scopeNote>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/dcat#servesDataset -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/dcat#servesDataset">
+        <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#DataService"/>
+        <rdfs:range rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+        <rdfs:comment xml:lang="en">A collection of data that this DataService can distribute.</rdfs:comment>
+        <rdfs:comment xml:lang="da">En samling af data som denne datatjeneste kan distribuere.</rdfs:comment>
+        <rdfs:comment xml:lang="cs">Kolekce dat, kterou je tato Datová služba schopna poskytnout.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Una colección de datos que este Servicio de Datos puede distribuir.</rdfs:comment>
+        <rdfs:comment xml:lang="it">Una raccolta di dati che questo DataService può distribuire.</rdfs:comment>
+        <rdfs:label xml:lang="da">datatjeneste for datasæt</rdfs:label>
+        <rdfs:label xml:lang="cs">poskytuje datovou sadu</rdfs:label>
+        <rdfs:label xml:lang="es">provee conjunto de datos</rdfs:label>
+        <rdfs:label xml:lang="it">serve set di dati</rdfs:label>
+        <rdfs:label xml:lang="en">serves dataset</rdfs:label>
+        <skos:altLabel xml:lang="da">distribuerer</skos:altLabel>
+        <skos:altLabel xml:lang="da">ekspederer</skos:altLabel>
+        <skos:altLabel xml:lang="da">udstiller</skos:altLabel>
+        <skos:changeNote xml:lang="en">New property in DCAT 2.0.</skos:changeNote>
+        <skos:changeNote xml:lang="cs">Nová vlastnost přidaná ve verzi DCAT 2.0.</skos:changeNote>
+        <skos:changeNote xml:lang="es">Nueva propiedad agregada en DCAT 2.0.</skos:changeNote>
+        <skos:changeNote xml:lang="it">Nuova proprietà in DCAT 2.0.</skos:changeNote>
+        <skos:definition xml:lang="en">A collection of data that this DataService can distribute.</skos:definition>
+        <skos:definition xml:lang="da">En samling af data som denne datatjeneste kan distribuere.</skos:definition>
+        <skos:definition xml:lang="cs">Kolekce dat, kterou je tato Datová služba schopna poskytnout.</skos:definition>
+        <skos:definition xml:lang="es">Una colección de datos que este Servicio de Datos puede distribuir.</skos:definition>
+        <skos:definition xml:lang="it">Una raccolta di dati che questo DataService può distribuire.</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/dcat#theme -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/dcat#theme">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/subject"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:comment xml:lang="en">A main category of the resource. A resource can have multiple themes.</rdfs:comment>
+        <rdfs:comment xml:lang="da">Et centralt emne for ressourcen. En ressource kan have flere centrale emner.</rdfs:comment>
+        <rdfs:comment xml:lang="cs">Hlavní téma zdroje. Zdroj může mít více témat.</rdfs:comment>
+        <rdfs:comment xml:lang="it">La categoria principale della risorsa. Una risorsa può avere più temi.</rdfs:comment>
+        <rdfs:comment xml:lang="es">La categoría principal del recurso. Un recurso puede tener varios temas.</rdfs:comment>
+        <rdfs:comment xml:lang="fr">La catégorie principale de la ressource. Une ressource peut avoir plusieurs thèmes.</rdfs:comment>
+        <rdfs:comment xml:lang="el">Η κύρια κατηγορία του συνόλου δεδομένων. Ένα σύνολο δεδομένων δύναται να έχει πολλαπλά θέματα.</rdfs:comment>
+        <rdfs:comment xml:lang="ar">التصنيف الرئيسي لقائمة البيانات. قائمة البيانات يمكن أن تملك أكثر من تصنيف رئيسي واحد.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">データセットの主要カテゴリー。データセットは複数のテーマを持つことができます。</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/TR/vocab-dcat/"/>
+        <rdfs:label xml:lang="da">emne</rdfs:label>
+        <rdfs:label xml:lang="es">tema</rdfs:label>
+        <rdfs:label xml:lang="it">tema</rdfs:label>
+        <rdfs:label xml:lang="en">theme</rdfs:label>
+        <rdfs:label xml:lang="fr">thème</rdfs:label>
+        <rdfs:label xml:lang="cs">téma</rdfs:label>
+        <rdfs:label xml:lang="el">Θέμα</rdfs:label>
+        <rdfs:label xml:lang="ar">التصنيف</rdfs:label>
+        <rdfs:label xml:lang="ja">テーマ/カテゴリー</rdfs:label>
+        <skos:altLabel xml:lang="da">tema</skos:altLabel>
+        <skos:definition xml:lang="en">A main category of the resource. A resource can have multiple themes.</skos:definition>
+        <skos:definition xml:lang="da">Et centralt emne for ressourcen. En ressource kan have flere centrale emner.</skos:definition>
+        <skos:definition xml:lang="cs">Hlavní téma zdroje. Zdroj může mít více témat.</skos:definition>
+        <skos:definition xml:lang="it">La categoria principale della risorsa. Una risorsa può avere più temi.</skos:definition>
+        <skos:definition xml:lang="es">La categoría principal del recurso. Un recurso puede tener varios temas.</skos:definition>
+        <skos:definition xml:lang="fr">La catégorie principale de la ressource. Une ressource peut avoir plusieurs thèmes.</skos:definition>
+        <skos:definition xml:lang="el">Η κύρια κατηγορία του συνόλου δεδομένων. Ένα σύνολο δεδομένων δύναται να έχει πολλαπλά θέματα.</skos:definition>
+        <skos:definition xml:lang="ar">التصنيف الرئيسي لقائمة البيانات. قائمة البيانات يمكن أن تملك أكثر من تصنيف رئيسي واحد.</skos:definition>
+        <skos:definition xml:lang="ja">データセットの主要カテゴリー。データセットは複数のテーマを持つことができます。</skos:definition>
+        <skos:editorialNote xml:lang="en">Status: English Definition text modified by DCAT revision team, all except for Italian and Czech translations are pending.</skos:editorialNote>
+        <skos:scopeNote xml:lang="es">El conjunto de skos:Concepts utilizados para categorizar los recursos están organizados en un skos:ConceptScheme que describe todas las categorías y sus relaciones en el catálogo.</skos:scopeNote>
+        <skos:scopeNote xml:lang="it">Il set di concetti skos usati per categorizzare le risorse sono organizzati in skos:ConceptScheme che descrive tutte le categorie e le loro relazioni nel catalogo.</skos:scopeNote>
+        <skos:scopeNote xml:lang="cs">Sada instancí třídy skos:Concept použitá pro kategorizaci zdrojů je organizována do schématu konceptů skos:ConceptScheme, které popisuje všechny kategorie v katalogu a jejich vztahy.</skos:scopeNote>
+        <skos:scopeNote xml:lang="da">Samlingen af begreber (skos:Concept) der anvendes til at emneinddele ressourcer organiseres i et begrebssystem (skos:ConceptScheme) som beskriver alle emnerne og deres relationer i kataloget.</skos:scopeNote>
+        <skos:scopeNote xml:lang="en">The set of skos:Concepts used to categorize the resources are organized in a skos:ConceptScheme describing all the categories and their relations in the catalog.</skos:scopeNote>
+        <skos:scopeNote xml:lang="fr">Un ensemble de skos:Concepts utilisés pour catégoriser les ressources sont organisés en un skos:ConceptScheme décrivant toutes les catégories et ses relations dans le catalogue.</skos:scopeNote>
+        <skos:scopeNote xml:lang="el">Το σετ των skos:Concepts που χρησιμοποιείται για να κατηγοριοποιήσει τα σύνολα δεδομένων είναι οργανωμένο εντός ενός skos:ConceptScheme που περιγράφει όλες τις κατηγορίες και τις σχέσεις αυτών στον κατάλογο.</skos:scopeNote>
+        <skos:scopeNote xml:lang="ja">データセットを分類するために用いられるskos:Conceptの集合は、カタログのすべてのカテゴリーとそれらの関係を記述しているskos:ConceptSchemeで組織化されます。</skos:scopeNote>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#alternateOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/prov#alternateOf">
+        <rdfs:domain rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:range rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o#"/>
+        <rdfs:label>alternateOf</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://www.w3.org/ns/prov#specializationOf"/>
+        <prov:category>expanded</prov:category>
+        <prov:component>alternate</prov:component>
+        <prov:constraints rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.w3.org/TR/2013/REC-prov-constraints-20130430/#prov-dm-constraints-fig</prov:constraints>
+        <prov:definition xml:lang="en">Two alternate entities present aspects of the same thing. These aspects may be the same or different, and the alternate entities may or may not overlap in time.</prov:definition>
+        <prov:dm rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.w3.org/TR/2013/REC-prov-dm-20130430/#term-alternate</prov:dm>
+        <prov:inverse>alternateOf</prov:inverse>
+        <prov:n rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.w3.org/TR/2013/REC-prov-n-20130430/#expression-alternate</prov:n>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#influenced -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/prov#influenced">
+        <owl:inverseOf rdf:resource="http://www.w3.org/ns/prov#wasInfluencedBy"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o#"/>
+        <rdfs:label>influenced</rdfs:label>
+        <prov:category>expanded</prov:category>
+        <prov:component>agents-responsibility</prov:component>
+        <prov:inverse>wasInfluencedBy</prov:inverse>
+        <prov:sharesDefinitionWith rdf:resource="http://www.w3.org/ns/prov#Influence"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#specializationOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/prov#specializationOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/ns/prov#alternateOf"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o#"/>
+        <rdfs:label>specializationOf</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://www.w3.org/ns/prov#alternateOf"/>
+        <prov:category>expanded</prov:category>
+        <prov:component>alternate</prov:component>
+        <prov:constraints rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.w3.org/TR/2013/REC-prov-constraints-20130430/#prov-dm-constraints-fig</prov:constraints>
+        <prov:definition xml:lang="en">An entity that is a specialization of another shares all aspects of the latter, and additionally presents more specific aspects of the same thing as the latter. In particular, the lifetime of the entity being specialized contains that of any specialization. Examples of aspects include a time period, an abstraction, and a context associated with the entity.</prov:definition>
+        <prov:dm rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.w3.org/TR/2013/REC-prov-dm-20130430/#term-specialization</prov:dm>
+        <prov:inverse>generalizationOf</prov:inverse>
+        <prov:n rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.w3.org/TR/2013/REC-prov-n-20130430/#expression-specialization</prov:n>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#wasDerivedFrom -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/prov#wasDerivedFrom">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/ns/prov#wasInfluencedBy"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:range rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:comment xml:lang="en">The more specific subproperties of prov:wasDerivedFrom (i.e., prov:wasQuotedFrom, prov:wasRevisionOf, prov:hadPrimarySource) should be used when applicable.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o#"/>
+        <rdfs:label>wasDerivedFrom</rdfs:label>
+        <prov:category>starting-point</prov:category>
+        <prov:component>derivations</prov:component>
+        <prov:definition xml:lang="en">A derivation is a transformation of an entity into another, an update of an entity resulting in a new one, or the construction of a new entity based on a pre-existing entity.</prov:definition>
+        <prov:inverse>hadDerivation</prov:inverse>
+        <prov:qualifiedForm rdf:resource="http://www.w3.org/ns/prov#Derivation"/>
+        <prov:qualifiedForm rdf:resource="http://www.w3.org/ns/prov#qualifiedDerivation"/>
+    </owl:ObjectProperty>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.w3.org/ns/prov#wasDerivedFrom"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subPropertyOf"/>
+        <owl:annotatedTarget rdf:resource="http://www.w3.org/ns/prov#wasInfluencedBy"/>
+        <rdfs:comment>Derivation is a particular case of trace (see http://www.w3.org/TR/prov-dm/#term-trace), since it links an entity to another entity that contributed to its existence.</rdfs:comment>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#wasInfluencedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/prov#wasInfluencedBy">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.w3.org/ns/prov#Activity"/>
+                    <rdf:Description rdf:about="http://www.w3.org/ns/prov#Agent"/>
+                    <rdf:Description rdf:about="http://www.w3.org/ns/prov#Entity"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.w3.org/ns/prov#Activity"/>
+                    <rdf:Description rdf:about="http://www.w3.org/ns/prov#Agent"/>
+                    <rdf:Description rdf:about="http://www.w3.org/ns/prov#Entity"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:comment xml:lang="en">Because prov:wasInfluencedBy is a broad relation, its more specific subproperties (e.g. prov:wasInformedBy, prov:actedOnBehalfOf, prov:wasEndedBy, etc.) should be used when applicable.</rdfs:comment>
+        <rdfs:comment>This property has multiple RDFS domains to suit multiple OWL Profiles. See &lt;a href=&quot;#owl-profile&quot;&gt;PROV-O OWL Profile&lt;/a&gt;.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o#"/>
+        <rdfs:label>wasInfluencedBy</rdfs:label>
+        <prov:category>qualified</prov:category>
+        <prov:component>agents-responsibility</prov:component>
+        <prov:editorialNote xml:lang="en">The sub-properties of prov:wasInfluencedBy can be elaborated in more detail using the Qualification Pattern. For example, the binary relation :baking prov:used :spoon can be qualified by asserting :baking prov:qualifiedUsage [ a prov:Usage; prov:entity :spoon; prov:atLocation :kitchen ] .
+
+Subproperties of prov:wasInfluencedBy may also be asserted directly without being qualified.
+
+prov:wasInfluencedBy should not be used without also using one of its subproperties. 
+</prov:editorialNote>
+        <prov:inverse>influenced</prov:inverse>
+        <prov:qualifiedForm rdf:resource="http://www.w3.org/ns/prov#Influence"/>
+        <prov:qualifiedForm rdf:resource="http://www.w3.org/ns/prov#qualifiedInfluence"/>
+        <prov:sharesDefinitionWith rdf:resource="http://www.w3.org/ns/prov#Influence"/>
+    </owl:ObjectProperty>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.w3.org/ns/prov#wasInfluencedBy"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#range"/>
+        <owl:annotatedTarget>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.w3.org/ns/prov#Activity"/>
+                    <rdf:Description rdf:about="http://www.w3.org/ns/prov#Agent"/>
+                    <rdf:Description rdf:about="http://www.w3.org/ns/prov#Entity"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:annotatedTarget>
+        <prov:definition>influencer: an identifier (o1) for an ancestor entity, activity, or agent that the former depends on;</prov:definition>
+        <prov:dm>http://www.w3.org/TR/2013/REC-prov-dm-20130430/#term-influence</prov:dm>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.w3.org/ns/prov#wasInfluencedBy"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#domain"/>
+        <owl:annotatedTarget>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.w3.org/ns/prov#Activity"/>
+                    <rdf:Description rdf:about="http://www.w3.org/ns/prov#Agent"/>
+                    <rdf:Description rdf:about="http://www.w3.org/ns/prov#Entity"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:annotatedTarget>
+        <prov:definition>influencee: an identifier (o2) for an entity, activity, or agent; </prov:definition>
+        <prov:dm>http://www.w3.org/TR/2013/REC-prov-dm-20130430/#term-influence</prov:dm>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#wasRevisionOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/prov#wasRevisionOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/ns/prov#wasDerivedFrom"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:comment xml:lang="en">A revision is a derivation that revises an entity into a revised version.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o#"/>
+        <rdfs:label>wasRevisionOf</rdfs:label>
+        <prov:category>expanded</prov:category>
+        <prov:component>derivations</prov:component>
+        <prov:inverse>hadRevision</prov:inverse>
+        <prov:qualifiedForm rdf:resource="http://www.w3.org/ns/prov#Revision"/>
+        <prov:qualifiedForm rdf:resource="http://www.w3.org/ns/prov#qualifiedRevision"/>
+    </owl:ObjectProperty>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.w3.org/ns/prov#wasRevisionOf"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subPropertyOf"/>
+        <owl:annotatedTarget rdf:resource="http://www.w3.org/ns/prov#wasDerivedFrom"/>
+        <rdfs:comment>Revision is a derivation (see http://www.w3.org/TR/prov-dm/#term-Revision). Moreover, according to 
+http://www.w3.org/TR/2013/REC-prov-constraints-20130430/#term-Revision 23 April 2012 &apos;wasRevisionOf is a strict sub-relation of wasDerivedFrom since two entities e2 and e1 may satisfy wasDerivedFrom(e2,e1) without being a variant of each other.&apos;</rdfs:comment>
+    </owl:Axiom>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/homepage -->
+
+    <owl:ObjectProperty rdf:about="http://xmlns.com/foaf/0.1/homepage">
+        <rdfs:comment>This axiom needed so that Protege loads DCAT2 without errors.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/page -->
+
+    <owl:ObjectProperty rdf:about="http://xmlns.com/foaf/0.1/page">
+        <owl:inverseOf rdf:resource="http://xmlns.com/foaf/0.1/topic"/>
+        <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+        <rdfs:comment>A page or document about this thing.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://xmlns.com/foaf/0.1/"/>
+        <rdfs:label>page</rdfs:label>
+        <ns:term_status>stable</ns:term_status>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/topic -->
+
+    <owl:ObjectProperty rdf:about="http://xmlns.com/foaf/0.1/topic">
+        <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+        <rdfs:comment>A topic of some page or document.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://xmlns.com/foaf/0.1/"/>
+        <rdfs:label>topic</rdfs:label>
+        <ns:term_status>testing</ns:term_status>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/dc/terms/title"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/SIO_000300 -->
+
+    <owl:DatatypeProperty rdf:about="http://semanticscience.org/resource/SIO_000300">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <dc:identifier>SIO_000300</dc:identifier>
+        <terms:description xml:lang="en">A relation between a informational entity and its actual value (numeric, date, text, etc).</terms:description>
+        <resource:subset>core</resource:subset>
+        <resource:subset>nlp</resource:subset>
+        <resource:subset>relations</resource:subset>
+        <resource:subset xml:lang="en">sadi</resource:subset>
+        <rdfs:isDefinedBy rdf:resource="http://semanticscience.org/ontology/sio.owl"/>
+        <rdfs:label xml:lang="en">has value</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://edamontology.org/topic_0003 -->
+
+    <owl:Class rdf:about="http://edamontology.org/topic_0003">
+        <edamontology:created_in>beta12orEarlier</edamontology:created_in>
+        <edamontology:notRecommendedForAnnotation>true</edamontology:notRecommendedForAnnotation>
+        <oboInOwl:hasDefinition>A category denoting a rather broad domain or field of interest, of study, application, work, data, or technology. Topics have no clearly defined borders between each other.</oboInOwl:hasDefinition>
+        <oboInOwl:hasRelatedSynonym>sumo:FieldOfStudy</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/edam#edam"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/edam#topics"/>
+        <rdfs:label>Topic</rdfs:label>
+        <rdfs:seeAlso>http://bioontology.org/ontologies/ResearchArea.owl#Area_of_Research</rdfs:seeAlso>
+        <rdfs:seeAlso>http://onto.eva.mpg.de/ontologies/gfo-bio.owl#Method</rdfs:seeAlso>
+        <rdfs:seeAlso>http://purl.org/biotop/biotop.owl#Quality</rdfs:seeAlso>
+        <rdfs:seeAlso>http://www.ifomis.org/bfo/1.1/snap#Continuant</rdfs:seeAlso>
+        <rdfs:seeAlso>http://www.ifomis.org/bfo/1.1/snap#Quality</rdfs:seeAlso>
+        <rdfs:seeAlso>http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#quality</rdfs:seeAlso>
+        <rdfs:seeAlso>http://www.onto-med.de/ontologies/gfo.owl#Category</rdfs:seeAlso>
+        <rdfs:seeAlso>http://www.onto-med.de/ontologies/gfo.owl#Perpetuant</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/topic_0634 -->
+
+    <owl:Class rdf:about="http://edamontology.org/topic_0634">
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3303"/>
+        <edamontology:created_in>beta12orEarlier</edamontology:created_in>
+        <edamontology:isdebtag>true</edamontology:isdebtag>
+        <oboInOwl:hasDbXref>VT 3.1.6 Pathology</oboInOwl:hasDbXref>
+        <oboInOwl:hasDefinition>Diseases, including diseases in general and the genes, gene variations and proteins involved in one or more specific diseases.</oboInOwl:hasDefinition>
+        <oboInOwl:hasExactSynonym rdf:resource="https://en.wikipedia.org/wiki/Pathology"/>
+        <oboInOwl:hasExactSynonym>Disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasHumanReadableId>Pathology</oboInOwl:hasHumanReadableId>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/edam#edam"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/edam#events"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/edam#topics"/>
+        <rdfs:label>Pathology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/topic_3277 -->
+
+    <owl:Class rdf:about="http://edamontology.org/topic_3277">
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3344"/>
+        <edamontology:created_in>1.3</edamontology:created_in>
+        <oboInOwl:hasDefinition>Biological samples and specimens.</oboInOwl:hasDefinition>
+        <oboInOwl:hasExactSynonym>Specimen collections</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasHumanReadableId>Sample_collections</oboInOwl:hasHumanReadableId>
+        <oboInOwl:hasNarrowSynonym>biosamples</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>samples</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/edam#edam"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/edam#events"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/edam#topics"/>
+        <rdfs:label>Sample collections</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/topic_3303 -->
+
+    <owl:Class rdf:about="http://edamontology.org/topic_3303">
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_0003"/>
+        <edamontology:created_in>1.3</edamontology:created_in>
+        <edamontology:isdebtag>true</edamontology:isdebtag>
+        <oboInOwl:hasDbXref>VT 3.1 Basic medicine</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>VT 3.2 Clinical medicine</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>VT 3.2.9 General and internal medicine</oboInOwl:hasDbXref>
+        <oboInOwl:hasDefinition>Research in support of healing by diagnosis, treatment, and prevention of disease.</oboInOwl:hasDefinition>
+        <oboInOwl:hasExactSynonym>Biomedical research</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Clinical medicine</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Experimental medicine</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasHumanReadableId>Medicine</oboInOwl:hasHumanReadableId>
+        <oboInOwl:hasNarrowSynonym>General medicine</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>Internal medicine</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/edam#edam"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/edam#events"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/edam#topics"/>
+        <rdfs:label>Medicine</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://en.wikipedia.org/wiki/Medicine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/topic_3325 -->
+
+    <owl:Class rdf:about="http://edamontology.org/topic_3325">
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_0634"/>
+        <edamontology:created_in>1.3</edamontology:created_in>
+        <oboInOwl:hasDefinition>The study of rare diseases.</oboInOwl:hasDefinition>
+        <oboInOwl:hasExactSynonym rdf:resource="https://en.wikipedia.org/wiki/Rare_disease"/>
+        <oboInOwl:hasHumanReadableId>Rare_diseases</oboInOwl:hasHumanReadableId>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/edam#edam"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/edam#events"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/edam#topics"/>
+        <rdfs:label>Rare diseases</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/topic_3337 -->
+
+    <owl:Class rdf:about="http://edamontology.org/topic_3337">
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3277"/>
+        <edamontology:created_in>1.3</edamontology:created_in>
+        <edamontology:isdebtag>true</edamontology:isdebtag>
+        <oboInOwl:hasDefinition>Repositories of biological samples, typically human, for basic biological and clinical research.</oboInOwl:hasDefinition>
+        <oboInOwl:hasExactSynonym>Tissue collection</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>biobanking</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasHumanReadableId>Biobank</oboInOwl:hasHumanReadableId>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/edam#edam"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/edam#events"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/edam#topics"/>
+        <rdfs:label>Biobank</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://en.wikipedia.org/wiki/Biobank"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/topic_3344 -->
+
+    <owl:Class rdf:about="http://edamontology.org/topic_3344">
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_0003"/>
+        <edamontology:created_in>1.3</edamontology:created_in>
+        <edamontology:isdebtag>true</edamontology:isdebtag>
+        <oboInOwl:hasDbXref>VT 3.3 Health sciences</oboInOwl:hasDbXref>
+        <oboInOwl:hasDefinition>Topic concerning biological science that is (typically) performed in the context of medicine.</oboInOwl:hasDefinition>
+        <oboInOwl:hasExactSynonym>Biomedical sciences</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Health science</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasHumanReadableId>Biomedical_science</oboInOwl:hasHumanReadableId>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/edam#edam"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/edam#events"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/edam#topics"/>
+        <rdfs:label>Biomedical science</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://en.wikipedia.org/wiki/Biomedical_sciences"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/dc/dcam/VocabularyEncodingScheme -->
+
+    <owl:Class rdf:about="http://purl.org/dc/dcam/VocabularyEncodingScheme"/>
+    
+
+
+    <!-- http://purl.org/dc/dcmitype/Service -->
+
+    <owl:Class rdf:about="http://purl.org/dc/dcmitype/Service"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/Agent -->
+
+    <owl:Class rdf:about="http://purl.org/dc/terms/Agent">
+        <owl:equivalentClass rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/dc/terms/AgentClass -->
+
+    <owl:Class rdf:about="http://purl.org/dc/terms/AgentClass">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-01-14</terms:issued>
+        <rdfs:comment xml:lang="en">A group of agents.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
+        <rdfs:label xml:lang="en">Agent Class</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/dc/terms/Location -->
+
+    <owl:Class rdf:about="http://purl.org/dc/terms/Location">
+        <rdfs:subClassOf rdf:resource="http://purl.org/dc/terms/LocationPeriodOrJurisdiction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/dc/terms/LocationPeriodOrJurisdiction -->
+
+    <owl:Class rdf:about="http://purl.org/dc/terms/LocationPeriodOrJurisdiction">
+        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-01-14</terms:issued>
+        <rdfs:comment xml:lang="en">A location, period of time, or jurisdiction.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
+        <rdfs:label xml:lang="en">Location, Period, or Jurisdiction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/dc/terms/MediaType -->
+
+    <owl:Class rdf:about="http://purl.org/dc/terms/MediaType"/>
+    
+
+
+    <!-- http://purl.org/ejp-rd/vocabulary/Biobank -->
+
+    <owl:Class rdf:about="http://purl.org/ejp-rd/vocabulary/Biobank">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/dcat#Resource"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biobank</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ejp-rd/vocabulary/Guideline -->
+
+    <owl:Class rdf:about="http://purl.org/ejp-rd/vocabulary/Guideline">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/dcat#Resource"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Guideline</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ejp-rd/vocabulary/PatientRegistry -->
+
+    <owl:Class rdf:about="http://purl.org/ejp-rd/vocabulary/PatientRegistry">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/dcat#Resource"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Patient registry</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/CreativeWork -->
+
+    <owl:Class rdf:about="http://schema.org/CreativeWork">
+        <owl:equivalentClass rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/SIO_000000 -->
+
+    <owl:Class rdf:about="http://semanticscience.org/resource/SIO_000000">
+        <dc:identifier>SIO_000000</dc:identifier>
+        <terms:description xml:lang="en">Every thing is an entity.</terms:description>
+        <resource:subset>core</resource:subset>
+        <rdfs:isDefinedBy rdf:resource="http://semanticscience.org/ontology/sio.owl"/>
+        <rdfs:label xml:lang="en">entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/SIO_000015 -->
+
+    <owl:Class rdf:about="http://semanticscience.org/resource/SIO_000015">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000776"/>
+        <dc:identifier>SIO_000015</dc:identifier>
+        <terms:description xml:lang="en">information content entity is an object that requires some background knowledge or procedure to correctly interpret.</terms:description>
+        <resource:subset>core</resource:subset>
+        <resource:subset>ice+</resource:subset>
+        <rdfs:isDefinedBy rdf:resource="http://semanticscience.org/ontology/sio.owl"/>
+        <rdfs:label xml:lang="en">information content entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/SIO_000078 -->
+
+    <owl:Class rdf:about="http://semanticscience.org/resource/SIO_000078">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000015"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000300"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:identifier>SIO_000078</dc:identifier>
+        <terms:description xml:lang="en">A language entity implements some language specification for the visual interpretation and is part of some document.</terms:description>
+        <resource:subset>nlp+</resource:subset>
+        <rdfs:isDefinedBy rdf:resource="http://semanticscience.org/ontology/sio.owl"/>
+        <rdfs:label xml:lang="en">language entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/SIO_000136 -->
+
+    <owl:Class rdf:about="http://semanticscience.org/resource/SIO_000136">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000078"/>
+        <dc:identifier>SIO_000136</dc:identifier>
+        <terms:description xml:lang="en">A description is language entity in which elements of a language (formal or natural) are used to characterize an entity.</terms:description>
+        <rdfs:isDefinedBy rdf:resource="http://semanticscience.org/ontology/sio.owl"/>
+        <rdfs:label xml:lang="en">description</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/SIO_000776 -->
+
+    <owl:Class rdf:about="http://semanticscience.org/resource/SIO_000776">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000000"/>
+        <dc:identifier>SIO_000776</dc:identifier>
+        <terms:description xml:lang="en">An object is an entity that is wholly identifiable at any instant of time during which it exists.</terms:description>
+        <resource:subset>core</resource:subset>
+        <rdfs:isDefinedBy rdf:resource="http://semanticscience.org/ontology/sio.owl"/>
+        <rdfs:label xml:lang="en">object</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/SIO_001166 -->
+
+    <owl:Class rdf:about="http://semanticscience.org/resource/SIO_001166">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000136"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000668"/>
+                <owl:someValuesFrom rdf:resource="http://semanticscience.org/resource/SIO_000000"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:identifier>SIO_001166</dc:identifier>
+        <terms:description xml:lang="en">An annotation is a written explanatory or critical description, or other in-context information (e.g., pattern, motif, link), that has been associated with data or other types of information.</terms:description>
+        <rdfs:isDefinedBy rdf:resource="http://semanticscience.org/ontology/sio.owl"/>
+        <rdfs:label xml:lang="en">annotation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#Class -->
+
+    <owl:Class rdf:about="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#Resource -->
+
+    <owl:Class rdf:about="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#Concept -->
+
+    <owl:Class rdf:about="http://www.w3.org/2004/02/skos/core#Concept">
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+        <rdfs:label xml:lang="en">Concept</rdfs:label>
+        <skos:definition xml:lang="en">An idea or notion; a unit of thought.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/ns/dcat#Catalog -->
+
+    <owl:Class rdf:about="http://www.w3.org/ns/dcat#Catalog">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+        <rdfs:comment xml:lang="en">A curated collection of metadata about resources (e.g., datasets and data services in the context of a data catalog).</rdfs:comment>
+        <rdfs:comment xml:lang="da">En udvalgt og arrangeret samling af metadata om ressourcer (fx datasæt og datatjenester i kontekst af et datakatalog). </rdfs:comment>
+        <rdfs:comment xml:lang="es">Una colección curada de metadatos sobre recursos (por ejemplo, conjuntos de datos y servicios de datos en el contexto de un catálogo de datos).</rdfs:comment>
+        <rdfs:comment xml:lang="it">Una raccolta curata di metadati sulle risorse (ad es. sui dataset e relativi servizi nel contesto di cataloghi di dati).</rdfs:comment>
+        <rdfs:comment xml:lang="fr">Une collection élaborée de métadonnées sur les jeux de données</rdfs:comment>
+        <rdfs:comment xml:lang="cs">Řízená kolekce metadat o datových sadách a datových službách</rdfs:comment>
+        <rdfs:comment xml:lang="el">Μια επιμελημένη συλλογή μεταδεδομένων περί συνόλων δεδομένων</rdfs:comment>
+        <rdfs:comment xml:lang="ar">مجموعة من توصيفات قوائم البيانات</rdfs:comment>
+        <rdfs:comment xml:lang="ja">データ・カタログは、データセットに関するキュレートされたメタデータの集合です。</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/TR/vocab-dcat/"/>
+        <rdfs:label xml:lang="en">Catalog</rdfs:label>
+        <rdfs:label xml:lang="it">Catalogo</rdfs:label>
+        <rdfs:label xml:lang="fr">Catalogue</rdfs:label>
+        <rdfs:label xml:lang="es">Catálogo</rdfs:label>
+        <rdfs:label xml:lang="cs">Katalog</rdfs:label>
+        <rdfs:label xml:lang="da">Katalog</rdfs:label>
+        <rdfs:label xml:lang="el">Κατάλογος</rdfs:label>
+        <rdfs:label xml:lang="ar">فهرس قوائم البيانات</rdfs:label>
+        <rdfs:label xml:lang="ja">カタログ</rdfs:label>
+        <skos:definition xml:lang="en">A curated collection of metadata about resources (e.g., datasets and data services in the context of a data catalog).</skos:definition>
+        <skos:definition xml:lang="da">En samling af metadata om ressourcer (fx datasæt og datatjenester i kontekst af et datakatalog).</skos:definition>
+        <skos:definition xml:lang="es">Una colección curada de metadatos sobre recursos (por ejemplo, conjuntos de datos y servicios de datos en el contexto de un catálogo de datos).</skos:definition>
+        <skos:definition xml:lang="it">Una raccolta curata di metadati sulle risorse (ad es. sui dataset e relativi servizi nel contesto di cataloghi di dati).</skos:definition>
+        <skos:definition xml:lang="fr">Une collection élaborée de métadonnées sur les jeux de données.</skos:definition>
+        <skos:definition xml:lang="cs">Řízená kolekce metadat o datových sadách a datových službách.</skos:definition>
+        <skos:definition xml:lang="el">Μια επιμελημένη συλλογή μεταδεδομένων περί συνόλων δεδομένων.</skos:definition>
+        <skos:definition xml:lang="ar">مجموعة من توصيفات قوائم البيانات</skos:definition>
+        <skos:definition xml:lang="ja">データ・カタログは、データセットに関するキュレートされたメタデータの集合です。</skos:definition>
+        <skos:editorialNote xml:lang="en">English, Italian, Spanish definitions updated in this revision. Multilingual text not yet updated.</skos:editorialNote>
+        <skos:scopeNote xml:lang="en">A web-based data catalog is typically represented as a single instance of this class.</skos:scopeNote>
+        <skos:scopeNote xml:lang="da">Et webbaseret datakatalog repræsenteres typisk ved en enkelt instans af denne klasse.</skos:scopeNote>
+        <skos:scopeNote xml:lang="it">Normalmente, un catalogo di dati nel web viene rappresentato come una singola istanza di questa classe.</skos:scopeNote>
+        <skos:scopeNote xml:lang="es">Normalmente, un catálogo de datos disponible en la web se representa como una única instancia de esta clase.</skos:scopeNote>
+        <skos:scopeNote xml:lang="cs">Webový datový katalog je typicky reprezentován jako jedna instance této třídy.</skos:scopeNote>
+        <skos:scopeNote xml:lang="el">Συνήθως, ένας κατάλογος δεδομένων στον Παγκόσμιο Ιστό αναπαρίσταται ως ένα στιγμιότυπο αυτής της κλάσης.</skos:scopeNote>
+        <skos:scopeNote xml:lang="ja">通常、ウェブ・ベースのデータ・カタログは、このクラスの1つのインスタンスとして表わされます。</skos:scopeNote>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/ns/dcat#DataService -->
+
+    <owl:Class rdf:about="http://www.w3.org/ns/dcat#DataService">
+        <rdfs:subClassOf rdf:resource="http://purl.org/dc/dcmitype/Service"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/dcat#Resource"/>
+        <rdfs:comment xml:lang="en">A site or end-point providing operations related to the discovery of, access to, or processing functions on, data or related resources.</rdfs:comment>
+        <rdfs:comment xml:lang="da">Et websted eller endpoint der udstiller operationer relateret til opdagelse af, adgang til eller behandlende funktioner på data eller relaterede ressourcer.</rdfs:comment>
+        <rdfs:comment xml:lang="cs">Umístění či přístupový bod poskytující operace související s hledáním, přistupem k, či výkonem funkcí na datech či souvisejících zdrojích.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Un sitio o end-point que provee operaciones relacionadas a funciones de descubrimiento, acceso, o procesamiento de datos o recursos relacionados.</rdfs:comment>
+        <rdfs:comment xml:lang="it">Un sito o end-point che fornisce operazioni relative alla scoperta, all&apos;accesso o all&apos;elaborazione di funzioni su dati o risorse correlate.</rdfs:comment>
+        <rdfs:label xml:lang="en">Data service</rdfs:label>
+        <rdfs:label xml:lang="da">Datatjeneste</rdfs:label>
+        <rdfs:label xml:lang="es">Servicio de datos</rdfs:label>
+        <rdfs:label xml:lang="it">Servizio di dati</rdfs:label>
+        <skos:altLabel xml:lang="da">Dataservice</skos:altLabel>
+        <skos:changeNote xml:lang="en">New class added in DCAT 2.0.</skos:changeNote>
+        <skos:changeNote xml:lang="cs">Nová třída přidaná ve verzi DCAT 2.0.</skos:changeNote>
+        <skos:changeNote xml:lang="es">Nueva clase añadida en DCAT 2.0.</skos:changeNote>
+        <skos:changeNote xml:lang="it">Nuova classe aggiunta in DCAT 2.0.</skos:changeNote>
+        <skos:changeNote xml:lang="da">Ny klasse tilføjet i DCAT 2.0.</skos:changeNote>
+        <skos:definition xml:lang="en">A site or end-point providing operations related to the discovery of, access to, or processing functions on, data or related resources.</skos:definition>
+        <skos:definition xml:lang="da">Et site eller endpoint der udstiller operationer relateret til opdagelse af, adgang til eller behandlende funktioner på data eller relaterede ressourcer.</skos:definition>
+        <skos:definition xml:lang="cs">Umístění či přístupový bod poskytující operace související s hledáním, přistupem k, či výkonem funkcí na datech či souvisejících zdrojích.</skos:definition>
+        <skos:definition xml:lang="es">Un sitio o end-point que provee operaciones relacionadas a funciones de descubrimiento, acceso, o procesamiento de datos o recursos relacionados.</skos:definition>
+        <skos:definition xml:lang="it">Un sito o end-point che fornisce operazioni relative alla scoperta, all&apos;accesso o all&apos;elaborazione di funzioni su dati o risorse correlate.</skos:definition>
+        <skos:scopeNote xml:lang="da">Datatjenestetypen kan indikeres ved hjælp af egenskaben dct:type. Værdien kan tages fra kontrollerede udfaldsrum såsom INSPIRE spatial data service vocabulary.</skos:scopeNote>
+        <skos:scopeNote xml:lang="cs">Druh služby může být indikován vlastností dct:type. Její hodnota může být z řízeného slovníku, kterým je například slovník typů prostorových datových služeb INSPIRE.</skos:scopeNote>
+        <skos:scopeNote xml:lang="es">El tipo de servicio puede indicarse usando la propiedad dct:type. Su valor puede provenir de un vocabulario controlado, como por ejemplo el vocabulario de servicios de datos espaciales de INSPIRE.</skos:scopeNote>
+        <skos:scopeNote xml:lang="da">Hvis en dcat:DataService er bundet til en eller flere specifikke datasæt kan dette indikeres ved hjælp af egenskaben dcat:servesDataset. </skos:scopeNote>
+        <skos:scopeNote xml:lang="en">If a dcat:DataService is bound to one or more specified Datasets, they are indicated by the dcat:servesDataset property.</skos:scopeNote>
+        <skos:scopeNote xml:lang="it">Il tipo di servizio può essere indicato usando la proprietà dct:type. Il suo valore può essere preso da un vocabolario controllato come il vocabolario dei tipi di servizi per dati spaziali di INSPIRE.</skos:scopeNote>
+        <skos:scopeNote xml:lang="cs">Pokud je dcat:DataService navázána na jednu či více Datových sad, jsou tyto indikovány vlstností dcat:servesDataset.</skos:scopeNote>
+        <skos:scopeNote xml:lang="it">Se un dcat:DataService è associato a uno o più Dataset specificati, questi sono indicati dalla proprietà dcat:serveDataset.</skos:scopeNote>
+        <skos:scopeNote xml:lang="es">Si un dcat:DataService está asociado con uno o más conjuntos de datos especificados, dichos conjuntos de datos pueden indicarse con la propiedad dcat:servesDataset.</skos:scopeNote>
+        <skos:scopeNote xml:lang="en">The kind of service can be indicated using the dct:type property. Its value may be taken from a controlled vocabulary such as the INSPIRE spatial data service type vocabulary.</skos:scopeNote>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/ns/dcat#Dataset -->
+
+    <owl:Class rdf:about="http://www.w3.org/ns/dcat#Dataset">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/dcat#Resource"/>
+        <rdfs:comment xml:lang="ja">1つのエージェントによって公開またはキュレートされ、1つ以上の形式でアクセスまたはダウンロードできるデータの集合。</rdfs:comment>
+        <rdfs:comment xml:lang="en">A collection of data, published or curated by a single source, and available for access or download in one or more representations.</rdfs:comment>
+        <rdfs:comment xml:lang="da">En samling af data, udgivet eller udvalgt og arrangeret af en enkelt kilde og som er til råde for adgang til eller download af i en eller flere repræsentationer.</rdfs:comment>
+        <rdfs:comment xml:lang="cs">Kolekce dat poskytovaná či řízená jedním zdrojem, která je k dispozici pro přístup či stažení v jednom či více formátech.</rdfs:comment>
+        <rdfs:comment xml:lang="it">Raccolta di dati, pubblicati o curati da un&apos;unica fonte, disponibili per l&apos;accesso o il download in uno o più formati.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Una colección de datos, publicados o conservados por una única fuente, y disponibles para ser accedidos o descargados en uno o más formatos.</rdfs:comment>
+        <rdfs:comment xml:lang="fr">Une collection de données, publiée ou élaborée par une seule source, et disponible pour accès ou téléchargement dans un ou plusieurs formats.</rdfs:comment>
+        <rdfs:comment xml:lang="el">Μία συλλογή από δεδομένα, δημοσιευμένη ή επιμελημένη από μία και μόνο πηγή, διαθέσιμη δε προς πρόσβαση ή μεταφόρτωση σε μία ή περισσότερες μορφές.</rdfs:comment>
+        <rdfs:comment xml:lang="ar">قائمة بيانات منشورة أو مجموعة من قبل مصدر ما و متاح الوصول إليها أو تحميلها</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/TR/vocab-dcat/"/>
+        <rdfs:label xml:lang="es">Conjunto de datos</rdfs:label>
+        <rdfs:label xml:lang="en">Dataset</rdfs:label>
+        <rdfs:label xml:lang="it">Dataset</rdfs:label>
+        <rdfs:label xml:lang="da">Datasæt</rdfs:label>
+        <rdfs:label xml:lang="cs">Datová sada</rdfs:label>
+        <rdfs:label xml:lang="fr">Jeu de données</rdfs:label>
+        <rdfs:label xml:lang="el">Σύνολο Δεδομένων</rdfs:label>
+        <rdfs:label xml:lang="ar">قائمة بيانات</rdfs:label>
+        <rdfs:label xml:lang="ja">データセット</rdfs:label>
+        <skos:altLabel xml:lang="da">Datasamling</skos:altLabel>
+        <skos:changeNote xml:lang="cs">2018-02 - odstraněno tvrzení o podtřídě dctype:Dataset, jelikož rozsah dcat:Dataset zahrnuje několik dalších typů ze slovníku dctype.</skos:changeNote>
+        <skos:changeNote xml:lang="es">2018-02 - se eliminó el axioma de subclase con dctype:Dataset porque el alcance de dcat:Dataset incluye muchos otros tipos del vocabulario dctype.</skos:changeNote>
+        <skos:changeNote xml:lang="it">2018-02 - sottoclasse di dctype:Dataset rimosso perché l&apos;ambito di dcat:Dataset include diversi altri tipi dal vocabolario dctype.</skos:changeNote>
+        <skos:changeNote xml:lang="en">2018-02 - subclass of dctype:Dataset removed because scope of dcat:Dataset includes several other types from the dctype vocabulary.</skos:changeNote>
+        <skos:changeNote xml:lang="da">2018-02 - subklasse af dctype:Dataset fjernet da scope af dcat:Dataset omfatter flere forskellige typer fra dctype-vokabularet.</skos:changeNote>
+        <skos:definition xml:lang="ja">1つのエージェントによって公開またはキュレートされ、1つ以上の形式でアクセスまたはダウンロードできるデータの集合。</skos:definition>
+        <skos:definition xml:lang="en">A collection of data, published or curated by a single source, and available for access or download in one or more represenations.</skos:definition>
+        <skos:definition xml:lang="da">En samling a data, udgivet eller udvalgt og arrangeret af en enkelt kilde og som der er adgang til i en eller flere repræsentationer.</skos:definition>
+        <skos:definition xml:lang="cs">Kolekce dat poskytovaná či řízená jedním zdrojem, která je k dispozici pro přístup či stažení v jednom či více formátech.</skos:definition>
+        <skos:definition xml:lang="it">Raccolta di dati, pubblicati o curati da un&apos;unica fonte, disponibili per l&apos;accesso o il download in uno o più formati.</skos:definition>
+        <skos:definition xml:lang="es">Una colección de datos, publicados o conservados por una única fuente, y disponibles para ser accedidos o descargados en uno o más formatos.</skos:definition>
+        <skos:definition xml:lang="fr">Une collection de données, publiée ou élaborée par une seule source, et disponible pour accès ou téléchargement dans un ou plusieurs formats.</skos:definition>
+        <skos:definition xml:lang="el">Μία συλλογή από δεδομένα, δημοσιευμένη ή επιμελημένη από μία και μόνο πηγή, διαθέσιμη δε προς πρόσβαση ή μεταφόρτωση σε μία ή περισσότερες μορφές.</skos:definition>
+        <skos:definition xml:lang="ar">قائمة بيانات منشورة أو مجموعة من قبل مصدر ما و متاح الوصول إليها أو تحميلها</skos:definition>
+        <skos:editorialNote xml:lang="en">2020-03-16 A new scopenote added and need to be translated</skos:editorialNote>
+        <skos:scopeNote xml:lang="fr">Cette classe représente le jeu de données publié par le fournisseur de données. Dans les cas où une distinction est nécessaire entre le jeu de donénes et son entrée dans le catalogue, la classe registre de données peut être utilisée pour ce dernier.</skos:scopeNote>
+        <skos:scopeNote xml:lang="da">Denne klasse beskriver det konceptuelle datasæt. En eller flere repræsentationer kan være tilgængelige med forskellige skematiske opsætninger, formater eller serialiseringer.</skos:scopeNote>
+        <skos:scopeNote xml:lang="da">Denne klasse repræsenterer det konkrete datasæt som det udgives af datasætleverandøren. I de tilfælde hvor det er nødvendigt at skelne mellem det konkrete datasæt og dets registrering i kataloget (fordi metadata såsom ændringsdato og vedligeholder er forskellige), så kan klassen katalogpost anvendes. </skos:scopeNote>
+        <skos:scopeNote xml:lang="es">Esta clase representa el conjunto de datos publicados. En los casos donde es necesario distinguir entre el conjunto de datos y su entrada en el catálogo de datos, se debe utilizar la clase &apos;registro del catálogo&apos;.</skos:scopeNote>
+        <skos:scopeNote xml:lang="it">Questa classe descrive il dataset dal punto di vista concettuale. Possono essere disponibili una o più rappresentazioni, con diversi layout e formati schematici o serializzazioni.</skos:scopeNote>
+        <skos:scopeNote xml:lang="it">Questa classe rappresenta il dataset come pubblicato dall’editore. Nel caso in cui sia necessario operare  una distinzione fra i metadati originali del dataset e il record dei metadati ad esso associato nel catalogo (ad esempio, per distinguere la data di modifica del dataset da quella del dataset nel catalogo) si può impiegare la classe catalog record.</skos:scopeNote>
+        <skos:scopeNote xml:lang="cs">Tato třída reprezentuje datovou sadu tak, jak je publikována poskytovatelem dat. V případě potřeby rozlišení datové sady a jejího katalogizačního záznamu (jelikož metadata jako datum modifikace se mohou lišit) pro něj může být použita třída &quot;katalogizační záznam&quot;.</skos:scopeNote>
+        <skos:scopeNote xml:lang="en">The notion of dataset in DCAT is broad and inclusive, with the intention of accommodating resource types arising from all communities. Data comes in many forms including numbers, text, pixels, imagery, sound and other multi-media, and potentially other types, any of which might be collected into a dataset.</skos:scopeNote>
+        <skos:scopeNote xml:lang="en">This class describes the conceptual dataset. One or more representations might be available, with differing schematic layouts and formats or serializations.</skos:scopeNote>
+        <skos:scopeNote xml:lang="en">This class represents the actual dataset as published by the dataset provider. In cases where a distinction between the actual dataset and its entry in the catalog is necessary (because metadata such as modification date and maintainer might differ), the catalog record class can be used for the latter.</skos:scopeNote>
+        <skos:scopeNote xml:lang="el">Η κλάση αυτή αναπαριστά το σύνολο δεδομένων αυτό καθ&apos;εαυτό, όπως έχει δημοσιευθεί από τον εκδότη. Σε περιπτώσεις όπου είναι απαραίτητος ο διαχωρισμός μεταξύ του συνόλου δεδομένων και της καταγραφής αυτού στον κατάλογο (γιατί μεταδεδομένα όπως η ημερομηνία αλλαγής και ο συντηρητής μπορεί να διαφέρουν) η κλάση της καταγραφής καταλόγου μπορεί να χρησιμοποιηθεί για το τελευταίο.</skos:scopeNote>
+        <skos:scopeNote xml:lang="ja">このクラスは、データセットの公開者が公開する実際のデータセットを表わします。カタログ内の実際のデータセットとそのエントリーとの区別が必要な場合（修正日と維持者などのメタデータが異なるかもしれないので）は、後者にcatalog recordというクラスを使用できます。</skos:scopeNote>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/ns/dcat#Distribution -->
+
+    <owl:Class rdf:about="http://www.w3.org/ns/dcat#Distribution">
+        <rdfs:comment xml:lang="en">A specific representation of a dataset. A dataset might be available in multiple serializations that may differ in various ways, including natural language, media-type or format, schematic organization, temporal and spatial resolution, level of detail or profiles (which might specify any or all of the above).</rdfs:comment>
+        <rdfs:comment xml:lang="da">En specifik repræsentation af et datasæt. Et datasæt kan være tilgængelig i mange serialiseringer der kan variere på forskellige vis, herunder sprog, medietype eller format, systemorganisering, tidslig- og geografisk opløsning, detaljeringsniveau eller profiler (der kan specificere en eller flere af ovenstående).</rdfs:comment>
+        <rdfs:comment xml:lang="cs">Konkrétní reprezentace datové sady. Datová sada může být dostupná v různých serializacích, které se mohou navzájem lišit různými způsoby, mimo jiné přirozeným jazykem, media-typem či formátem, schematickou organizací, časovým a prostorovým rozlišením, úrovní detailu či profily (které mohou specifikovat některé či všechny tyto rozdíly).</rdfs:comment>
+        <rdfs:comment xml:lang="it">Rappresenta una forma disponibile e specifica del dataset. Ciascun dataset può essere disponibile in forme differenti, che possono rappresentare formati diversi o diversi punti di accesso per un dataset. Esempi di distribuzioni sono un file CSV scaricabile, una API o un RSS feed.</rdfs:comment>
+        <rdfs:comment xml:lang="fr">Représente une forme spécifique d&apos;un jeu de données. Caque jeu de données peut être disponible sous différentes formes, celles-ci pouvant représenter différents formats du jeu de données ou différents endpoint. Des exemples de distribution sont des fichirs CSV, des API ou des flux RSS.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Una representación específica de los datos. Cada conjunto de datos puede estar disponible en formas diferentes, las cuáles pueden variar en distintas formas, incluyendo el idioma, &apos;media-type&apos; o formato, organización esquemática, resolución temporal y espacial, nivel de detalle o perfiles (que pueden especificar cualquiera o todas las diferencias anteriores).</rdfs:comment>
+        <rdfs:comment xml:lang="el">Αναπαριστά μία συγκεκριμένη διαθέσιμη μορφή ενός συνόλου δεδομένων. Κάθε σύνολο δεδομενων μπορεί να είναι διαθέσιμο σε διαφορετικές μορφές, οι μορφές αυτές μπορεί να αναπαριστούν διαφορετικές μορφές αρχείων ή διαφορετικά σημεία διάθεσης. Παραδείγματα διανομών συμπεριλαμβάνουν ένα μεταφορτώσιμο αρχείο μορφής CSV, ένα API ή ένα RSS feed.</rdfs:comment>
+        <rdfs:comment xml:lang="ar">شكل محدد لقائمة البيانات يمكن الوصول إليه. قائمة بيانات ما يمكن أن تكون متاحه باشكال و أنواع متعددة.  ملف يمكن تحميله أو واجهة برمجية يمكن من خلالها الوصول إلى البيانات هي أمثلة على ذلك.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">データセットの特定の利用可能な形式を表わします。各データセットは、異なる形式で利用できることがあり、これらの形式は、データセットの異なる形式や、異なるエンドポイントを表わす可能性があります。配信の例には、ダウンロード可能なCSVファイル、API、RSSフィードが含まれます。</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/TR/vocab-dcat/"/>
+        <rdfs:label xml:lang="cs">Distribuce</rdfs:label>
+        <rdfs:label xml:lang="es">Distribución</rdfs:label>
+        <rdfs:label xml:lang="da">Distribution</rdfs:label>
+        <rdfs:label xml:lang="en">Distribution</rdfs:label>
+        <rdfs:label xml:lang="fr">Distribution</rdfs:label>
+        <rdfs:label xml:lang="it">Distribuzione</rdfs:label>
+        <rdfs:label xml:lang="el">Διανομή</rdfs:label>
+        <rdfs:label xml:lang="ar">التوزيع</rdfs:label>
+        <rdfs:label xml:lang="ja">配信</rdfs:label>
+        <skos:altLabel xml:lang="da">Datadistribution</skos:altLabel>
+        <skos:altLabel xml:lang="da">Datamanifestation</skos:altLabel>
+        <skos:altLabel xml:lang="da">Datarepræsentation</skos:altLabel>
+        <skos:altLabel xml:lang="da">Dataudstilling</skos:altLabel>
+        <skos:definition xml:lang="en">A specific representation of a dataset. A dataset might be available in multiple serializations that may differ in various ways, including natural language, media-type or format, schematic organization, temporal and spatial resolution, level of detail or profiles (which might specify any or all of the above).</skos:definition>
+        <skos:definition xml:lang="da">En specifik repræsentation af et datasæt. Et datasæt kan være tilgængelig i mange serialiseringer der kan variere på forskellige vis, herunder sprog, medietype eller format, systemorganisering, tidslig- og geografisk opløsning, detaljeringsniveau eller profiler (der kan specificere en eller flere af ovenstående).</skos:definition>
+        <skos:definition xml:lang="cs">Konkrétní reprezentace datové sady. Datová sada může být dostupná v různých serializacích, které se mohou navzájem lišit různými způsoby, mimo jiné přirozeným jazykem, media-typem či formátem, schematickou organizací, časovým a prostorovým rozlišením, úrovní detailu či profily (které mohou specifikovat některé či všechny tyto rozdíly).</skos:definition>
+        <skos:definition xml:lang="it">Rappresenta una forma disponibile e specifica del dataset. Ciascun dataset può essere disponibile in forme differenti, che possono rappresentare formati diversi o diversi punti di accesso per un dataset. Esempi di distribuzioni sono un file CSV scaricabile, una API o un RSS feed.</skos:definition>
+        <skos:definition xml:lang="fr">Représente une forme spécifique d&apos;un jeu de données. Caque jeu de données peut être disponible sous différentes formes, celles-ci pouvant représenter différents formats du jeu de données ou différents endpoint. Des exemples de distribution sont des fichirs CSV, des API ou des flux RSS.</skos:definition>
+        <skos:definition xml:lang="es">Una representación específica de los datos. Cada conjunto de datos puede estar disponible en formas diferentes, las cuáles pueden variar en distintas formas, incluyendo el idioma, &apos;media-type&apos; o formato, organización esquemática, resolución temporal y espacial, nivel de detalle o perfiles (que pueden especificar cualquiera o todas las diferencias anteriores).</skos:definition>
+        <skos:definition xml:lang="el">Αναπαριστά μία συγκεκριμένη διαθέσιμη μορφή ενός συνόλου δεδομένων. Κάθε σύνολο δεδομενων μπορεί να είναι διαθέσιμο σε διαφορετικές μορφές, οι μορφές αυτές μπορεί να αναπαριστούν διαφορετικές μορφές αρχείων ή διαφορετικά σημεία διάθεσης. Παραδείγματα διανομών συμπεριλαμβάνουν ένα μεταφορτώσιμο αρχείο μορφής CSV, ένα API ή ένα RSS feed.</skos:definition>
+        <skos:definition xml:lang="ar">شكل محدد لقائمة البيانات يمكن الوصول إليه. قائمة بيانات ما يمكن أن تكون متاحه باشكال و أنواع متعددة.  ملف يمكن تحميله أو واجهة برمجية يمكن من خلالها الوصول إلى البيانات هي أمثلة على ذلك.</skos:definition>
+        <skos:definition xml:lang="ja">データセットの特定の利用可能な形式を表わします。各データセットは、異なる形式で利用できることがあり、これらの形式は、データセットの異なる形式や、異なるエンドポイントを表わす可能性があります。配信の例には、ダウンロード可能なCSVファイル、API、RSSフィードが含まれます。</skos:definition>
+        <skos:scopeNote xml:lang="fr">Ceci représente une disponibilité générale du jeu de données, et implique qu&apos;il n&apos;existe pas d&apos;information sur la méthode d&apos;accès réelle des données, par exple, si c&apos;est un lien de téléchargement direct ou à travers une page Web.</skos:scopeNote>
+        <skos:scopeNote xml:lang="da">Denne klasse repræsenterer datasættets overordnede tilgængelighed og giver ikke oplysninger om hvilken metode der kan anvendes til at få adgang til data, dvs. om adgang til datasættet realiseres ved direkte download, API eller via et websted. Anvendelsen af egenskaben dcat:downloadURL indikerer at distributionen kan downloades direkte.</skos:scopeNote>
+        <skos:scopeNote xml:lang="es">Esta clase representa una disponibilidad general de un conjunto de datos, e implica que no existe información acerca del método de acceso real a los datos, i.e., si es un enlace de descarga directa o a través de una página Web.</skos:scopeNote>
+        <skos:scopeNote xml:lang="it">Questa classe rappresenta una disponibilità generale di un dataset e non implica alcuna informazione sul metodo di accesso effettivo ai dati, ad esempio se si tratta di un accesso a download diretto, API, o attraverso una pagina Web. L&apos;utilizzo della proprietà dcat:downloadURL indica distribuzioni direttamente scaricabili.</skos:scopeNote>
+        <skos:scopeNote xml:lang="en">This represents a general availability of a dataset it implies no information about the actual access method of the data, i.e. whether by direct download, API, or through a Web page. The use of dcat:downloadURL property indicates directly downloadable distributions.</skos:scopeNote>
+        <skos:scopeNote xml:lang="cs">Toto popisuje obecnou dostupnost datové sady. Neimplikuje žádnou informaci o skutečné metodě přístupu k datům, tj. zda jsou přímo ke stažení, skrze API či přes webovou stránku. Použití vlastnosti dcat:downloadURL indikuje přímo stažitelné distribuce.</skos:scopeNote>
+        <skos:scopeNote xml:lang="el">Αυτό αναπαριστά μία γενική διαθεσιμότητα ενός συνόλου δεδομένων και δεν υπονοεί τίποτα περί του πραγματικού τρόπου πρόσβασης στα δεδομένα, αν είναι άμεσα μεταφορτώσιμα, μέσω API ή μέσω μίας ιστοσελίδας. Η χρήση της ιδιότητας dcat:downloadURL δείχνει μόνο άμεσα μεταφορτώσιμες διανομές.</skos:scopeNote>
+        <skos:scopeNote xml:lang="ja">これは、データセットの一般的な利用可能性を表わし、データの実際のアクセス方式に関する情報（つまり、直接ダウンロードなのか、APIなのか、ウェブページを介したものなのか）を意味しません。dcat:downloadURLプロパティーの使用は、直接ダウンロード可能な配信を意味します。</skos:scopeNote>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/ns/dcat#Resource -->
+
+    <owl:Class rdf:about="http://www.w3.org/ns/dcat#Resource">
+        <rdfs:comment xml:lang="es">Recurso publicado o curado por un agente único.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Resource published or curated by a single agent.</rdfs:comment>
+        <rdfs:comment xml:lang="da">Ressource udgivet eller udvalgt og arrangeret af en enkelt aktør.</rdfs:comment>
+        <rdfs:comment xml:lang="it">Risorsa pubblicata o curata da un singolo agente.</rdfs:comment>
+        <rdfs:comment xml:lang="cs">Zdroj publikovaný či řízený jediným činitelem.</rdfs:comment>
+        <rdfs:label xml:lang="en">Catalogued resource</rdfs:label>
+        <rdfs:label xml:lang="da">Katalogiseret ressource</rdfs:label>
+        <rdfs:label xml:lang="cs">Katalogizovaný zdroj</rdfs:label>
+        <rdfs:label xml:lang="es">Recurso catalogado</rdfs:label>
+        <rdfs:label xml:lang="it">Risorsa catalogata</rdfs:label>
+        <skos:changeNote xml:lang="en">New class added in DCAT 2.0.</skos:changeNote>
+        <skos:changeNote xml:lang="cs">Nová třída přidaná ve verzi DCAT 2.0.</skos:changeNote>
+        <skos:changeNote xml:lang="es">Nueva clase agregada en DCAT 2.0.</skos:changeNote>
+        <skos:changeNote xml:lang="it">Nuova classe aggiunta in DCAT 2.0.</skos:changeNote>
+        <skos:changeNote xml:lang="da">Ny klasse i DCAT 2.0.</skos:changeNote>
+        <skos:definition xml:lang="es">Recurso publicado o curado por un agente único.</skos:definition>
+        <skos:definition xml:lang="en">Resource published or curated by a single agent.</skos:definition>
+        <skos:definition xml:lang="da">Ressource udgivet eller udvalgt og arrangeret af en enkelt aktør.</skos:definition>
+        <skos:definition xml:lang="it">Risorsa pubblicata o curata da un singolo agente.</skos:definition>
+        <skos:definition xml:lang="cs">Zdroj publikovaný či řízený jediným činitelem.</skos:definition>
+        <skos:scopeNote xml:lang="da">Klassen for alle katalogiserede ressourcer, den overordnede klasse for dcat:Dataset, dcat:DataService, dcat:Catalog og enhvert medlem af et dcat:Catalog. Denne klasse bærer egenskaber der gælder alle katalogiserede ressourcer, herunder dataset og datatjenester. Det anbefales kraftigt at mere specifikke subklasser oprettes. Når der beskrives ressourcer der ikke er dcat:Dataset eller dcat:DataService, anbefales det at oprette passende subklasser af dcat:Resource eller at dcat:Resource anvendes sammen med egenskaben dct:type til opmærkning med en specifik typeangivelse.</skos:scopeNote>
+        <skos:scopeNote xml:lang="es">La clase de todos los recursos catalogados, la superclase de dcat:Dataset, dcat:DataService, dcat:Catalog y cualquier otro miembro de un dcat:Catalog. Esta clase tiene propiedades comunes a todos los recursos catalogados, incluyendo conjuntos de datos y servicios de datos. Se recomienda fuertemente que se use una clase más específica. Cuando se describe un recurso que no es un dcat:Dataset o dcat:DataService, se recomienda crear una sub-clase apropiada de dcat:Resource, o usar dcat:Resource con la propiedad dct:type to indicar el tipo específico.</skos:scopeNote>
+        <skos:scopeNote xml:lang="it">La classe di tutte le risorse catalogate, la Superclasse di dcat:Dataset, dcat:DataService, dcat:Catalog e qualsiasi altro membro di dcat:Catalog. Questa classe porta proprietà comuni a tutte le risorse catalogate, inclusi set di dati e servizi dati. Si raccomanda vivamente di utilizzare una sottoclasse più specifica. Quando si descrive una risorsa che non è un dcat:Dataset o dcat:DataService, si raccomanda di creare una sottoclasse di dcat:Resource appropriata, o utilizzare dcat:Resource con la proprietà dct:type per indicare il tipo specifico.</skos:scopeNote>
+        <skos:scopeNote xml:lang="en">The class of all catalogued resources, the Superclass of dcat:Dataset, dcat:DataService, dcat:Catalog and any other member of a dcat:Catalog. This class carries properties common to all catalogued resources, including datasets and data services. It is strongly recommended to use a more specific sub-class. When describing a resource which is not a dcat:Dataset or dcat:DataService, it is recommended to create a suitable sub-class of dcat:Resource, or use dcat:Resource with the dct:type property to indicate the specific type.</skos:scopeNote>
+        <skos:scopeNote xml:lang="cs">Třída všech katalogizovaných zdrojů, nadtřída dcat:Dataset, dcat:DataService, dcat:Catalog a všech ostatních členů dcat:Catalog. Tato třída nese vlastnosti společné všem katalogizovaným zdrojům včetně datových sad a datových služeb. Je silně doporučeno používat specifičtější podtřídy, pokud je to možné. Při popisu zdroje, který není ani dcat:Dataset, ani dcat:DataService se doporučuje vytvořit odpovídající podtřídu dcat:Resrouce a nebo použít dcat:Resource s vlastností dct:type pro určení konkrétního typu.</skos:scopeNote>
+        <skos:scopeNote xml:lang="da">dcat:Resource er et udvidelsespunkt der tillader oprettelsen af enhver type af kataloger. Yderligere subklasser kan defineres i en DCAT-profil eller i en applikation til kataloger med andre typer af ressourcer.</skos:scopeNote>
+        <skos:scopeNote xml:lang="es">dcat:Resource es un punto de extensión que permite la definición de cualquier tipo de catálogo. Se pueden definir subclases adicionales en perfil de DCAT o una aplicación para catálogos de otro tipo de recursos.</skos:scopeNote>
+        <skos:scopeNote xml:lang="en">dcat:Resource is an extension point that enables the definition of any kind of catalog. Additional subclasses may be defined in a DCAT profile or application for catalogs of other kinds of resources.</skos:scopeNote>
+        <skos:scopeNote xml:lang="cs">dcat:Resource je bod pro rozšíření umožňující definici různých druhů katalogů. Další podtřídy lze definovat v profilech DCAT či aplikacích pro katalogy zdrojů jiných druhů.</skos:scopeNote>
+        <skos:scopeNote xml:lang="it">dcat:Resource è un punto di estensione che consente la definizione di qualsiasi tipo di catalogo. Sottoclassi aggiuntive possono essere definite in un profilo DCAT o in un&apos;applicazione per cataloghi di altri tipi di risorse.</skos:scopeNote>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#Activity -->
+
+    <owl:Class rdf:about="http://www.w3.org/ns/prov#Activity">
+        <owl:disjointWith rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o#"/>
+        <rdfs:label>Activity</rdfs:label>
+        <prov:category>starting-point</prov:category>
+        <prov:component>entities-activities</prov:component>
+        <prov:constraints rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.w3.org/TR/2013/REC-prov-constraints-20130430/#prov-dm-constraints-fig</prov:constraints>
+        <prov:definition>An activity is something that occurs over a period of time and acts upon or with entities; it may include consuming, processing, transforming, modifying, relocating, using, or generating entities.</prov:definition>
+        <prov:dm rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.w3.org/TR/2013/REC-prov-dm-20130430/#term-Activity</prov:dm>
+        <prov:n rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.w3.org/TR/2013/REC-prov-n-20130430/#expression-Activity</prov:n>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#Agent -->
+
+    <owl:Class rdf:about="http://www.w3.org/ns/prov#Agent">
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o#"/>
+        <rdfs:label>Agent</rdfs:label>
+        <prov:category>starting-point</prov:category>
+        <prov:component>agents-responsibility</prov:component>
+        <prov:definition xml:lang="en">An agent is something that bears some form of responsibility for an activity taking place, for the existence of an entity, or for another agent&apos;s activity. </prov:definition>
+        <prov:dm rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.w3.org/TR/2013/REC-prov-dm-20130430/#term-agent</prov:dm>
+        <prov:n rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.w3.org/TR/2013/REC-prov-n-20130430/#expression-Agent</prov:n>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#Entity -->
+
+    <owl:Class rdf:about="http://www.w3.org/ns/prov#Entity">
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov-o#"/>
+        <rdfs:label>Entity</rdfs:label>
+        <prov:category>starting-point</prov:category>
+        <prov:component>entities-activities</prov:component>
+        <prov:constraints rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.w3.org/TR/2013/REC-prov-constraints-20130430/#prov-dm-constraints-fig</prov:constraints>
+        <prov:definition xml:lang="en">An entity is a physical, digital, conceptual, or other kind of thing with some fixed aspects; entities may be real or imaginary. </prov:definition>
+        <prov:dm rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.w3.org/TR/2013/REC-prov-dm-20130430/#term-entity</prov:dm>
+        <prov:n rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.w3.org/TR/2013/REC-prov-n-20130430/#expression-Entity</prov:n>
+    </owl:Class>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Agent -->
+
+    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Agent">
+        <rdfs:comment>An agent (eg. person, group, software or physical artifact).</rdfs:comment>
+        <rdfs:label>Agent</rdfs:label>
+        <ns:term_status>stable</ns:term_status>
+    </owl:Class>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Document -->
+
+    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Document">
+        <rdfs:comment>A document.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://xmlns.com/foaf/0.1/"/>
+        <rdfs:label>Document</rdfs:label>
+        <ns:term_status>stable</ns:term_status>
+    </owl:Class>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Person -->
+
+    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Person"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://okfn.org -->
+
+    <owl:NamedIndividual rdf:about="http://okfn.org"/>
+    
+
+
+    <!-- http://stfc.ac.uk -->
+
+    <owl:NamedIndividual rdf:about="http://stfc.ac.uk"/>
+    
+
+
+    <!-- http://www.refinitiv.com -->
+
+    <owl:NamedIndividual rdf:about="http://www.refinitiv.com"/>
+    
+
+
+    <!-- http://ec.europa.eu/dgs/informatics/ -->
+
+    <owl:NamedIndividual rdf:about="http://ec.europa.eu/dgs/informatics/"/>
+    
+
+
+    <!-- http://makxdekkers.com/ -->
+
+    <owl:NamedIndividual rdf:about="http://makxdekkers.com/"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/Agent -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/Agent">
+        <rdf:type rdf:resource="http://purl.org/dc/terms/AgentClass"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/dc/terms/DCMIType -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/DCMIType">
+        <rdf:type rdf:resource="http://purl.org/dc/dcam/VocabularyEncodingScheme"/>
+        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2000-07-11</terms:issued>
+        <rdfs:comment xml:lang="en">The set of classes specified by the DCMI Type Vocabulary, used to categorize the nature or genre of the resource.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
+        <rdfs:label xml:lang="en">DCMI Type Vocabulary</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.org/dc/dcmitype/"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/dc/terms/DDC -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/DDC">
+        <rdf:type rdf:resource="http://purl.org/dc/dcam/VocabularyEncodingScheme"/>
+        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2000-07-11</terms:issued>
+        <rdfs:comment xml:lang="en">The set of conceptual resources specified by the Dewey Decimal Classification.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
+        <rdfs:label xml:lang="en">DDC</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://www.oclc.org/dewey/"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/dc/terms/IMT -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/IMT">
+        <rdf:type rdf:resource="http://purl.org/dc/dcam/VocabularyEncodingScheme"/>
+        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2000-07-11</terms:issued>
+        <rdfs:comment xml:lang="en">The set of media types specified by the Internet Assigned Numbers Authority.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
+        <rdfs:label xml:lang="en">IMT</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://www.iana.org/assignments/media-types/"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/dc/terms/LCC -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/LCC">
+        <rdf:type rdf:resource="http://purl.org/dc/dcam/VocabularyEncodingScheme"/>
+        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2000-07-11</terms:issued>
+        <rdfs:comment xml:lang="en">The set of conceptual resources specified by the Library of Congress Classification.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
+        <rdfs:label xml:lang="en">LCC</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://lcweb.loc.gov/catdir/cpso/lcco/lcco.html"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/dc/terms/LCSH -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/LCSH">
+        <rdf:type rdf:resource="http://purl.org/dc/dcam/VocabularyEncodingScheme"/>
+        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2000-07-11</terms:issued>
+        <rdfs:comment xml:lang="en">The set of labeled concepts specified by the Library of Congress Subject Headings.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
+        <rdfs:label xml:lang="en">LCSH</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/dc/terms/Location -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/Location"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/MESH -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/MESH">
+        <rdf:type rdf:resource="http://purl.org/dc/dcam/VocabularyEncodingScheme"/>
+        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2000-07-11</terms:issued>
+        <rdfs:comment xml:lang="en">The set of labeled concepts specified by the Medical Subject Headings.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
+        <rdfs:label xml:lang="en">MeSH</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://www.nlm.nih.gov/mesh/meshhome.html"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/dc/terms/NLM -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/NLM">
+        <rdf:type rdf:resource="http://purl.org/dc/dcam/VocabularyEncodingScheme"/>
+        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-06-13</terms:issued>
+        <rdfs:comment xml:lang="en">The set of conceptual resources specified by the National Library of Medicine Classification.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
+        <rdfs:label xml:lang="en">NLM</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://wwwcf.nlm.nih.gov/class/"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/dc/terms/TGN -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/TGN">
+        <rdf:type rdf:resource="http://purl.org/dc/dcam/VocabularyEncodingScheme"/>
+        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2000-07-11</terms:issued>
+        <rdfs:comment xml:lang="en">The set of places specified by the Getty Thesaurus of Geographic Names.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
+        <rdfs:label xml:lang="en">TGN</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://www.getty.edu/research/tools/vocabulary/tgn/index.html"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/dc/terms/UDC -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/UDC">
+        <rdf:type rdf:resource="http://purl.org/dc/dcam/VocabularyEncodingScheme"/>
+        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2000-07-11</terms:issued>
+        <rdfs:comment xml:lang="en">The set of conceptual resources specified by the Universal Decimal Classification.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
+        <rdfs:label xml:lang="en">UDC</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://www.udcc.org/"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/dc/terms/conformsTo -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/conformsTo"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/description -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/description"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/hasVersion -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/hasVersion"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/isPartOf -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/isPartOf"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/publisher -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/publisher"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/spatial -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/spatial"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/title"/>
+    
+
+
+    <!-- http://www.andrea-perego.name/foaf/#me -->
+
+    <owl:NamedIndividual rdf:about="http://www.andrea-perego.name/foaf/#me"/>
+    
+
+
+    <!-- http://www.asahi-net.or.jp/~ax2s-kmtn/ -->
+
+    <owl:NamedIndividual rdf:about="http://www.asahi-net.or.jp/~ax2s-kmtn/"/>
+    
+
+
+    <!-- http://www.imati.cnr.it/index.php/people/8-curricula/178-riccardo-albertoni -->
+
+    <owl:NamedIndividual rdf:about="http://www.imati.cnr.it/index.php/people/8-curricula/178-riccardo-albertoni"/>
+    
+
+
+    <!-- http://www.w3.org/2011/gld/ -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2011/gld/"/>
+    
+
+
+    <!-- http://www.w3.org/People/all#phila -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/People/all#phila"/>
+    
+
+
+    <!-- http://www.w3.org/ns/prov-o -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/ns/prov-o"/>
+    
+
+
+    <!-- http://www.w3.org/ns/prov-o-20130312 -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/ns/prov-o-20130312"/>
+    
+
+
+    <!-- http://www.w3.org/ns/prov-o# -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/ns/prov-o#">
+        <prov:specializationOf rdf:resource="http://www.w3.org/ns/prov-o"/>
+        <prov:wasRevisionOf rdf:resource="http://www.w3.org/ns/prov-o-20130312"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://agbeltran.github.io -->
+
+    <owl:NamedIndividual rdf:about="https://agbeltran.github.io"/>
+    
+
+
+    <!-- https://csiro.au -->
+
+    <owl:NamedIndividual rdf:about="https://csiro.au"/>
+    
+
+
+    <!-- https://jakub.klímek.com/ -->
+
+    <owl:NamedIndividual rdf:about="https://jakub.klímek.com/"/>
+    
+
+
+    <!-- https://w3id.org/people/ralbertoni/ -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/people/ralbertoni/"/>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid18">
+        <foaf:homepage rdf:resource="http://www.imati.cnr.it/index.php/people/8-curricula/178-riccardo-albertoni"/>
+        <foaf:homepage rdf:resource="https://w3id.org/people/ralbertoni/"/>
+    </rdf:Description>
+    <rdf:Description>
+        <foaf:homepage rdf:resource="https://csiro.au"/>
+    </rdf:Description>
+    <rdf:Description>
+        <foaf:homepage rdf:resource="http://stfc.ac.uk"/>
+    </rdf:Description>
+    <rdf:Description>
+        <foaf:homepage rdf:resource="http://ec.europa.eu/dgs/informatics/"/>
+    </rdf:Description>
+    <rdf:Description>
+        <foaf:homepage rdf:resource="http://okfn.org"/>
+    </rdf:Description>
+    <rdf:Description>
+        <foaf:homepage rdf:resource="http://www.refinitiv.com"/>
+    </rdf:Description>
+    <rdf:Description>
+        <foaf:homepage rdf:resource="http://www.w3.org/2011/gld/"/>
+    </rdf:Description>
+    <rdf:Description>
+        <foaf:homepage rdf:resource="http://www.asahi-net.or.jp/~ax2s-kmtn/"/>
+    </rdf:Description>
+    <rdf:Description>
+        <foaf:homepage rdf:resource="https://jakub.klímek.com/"/>
+    </rdf:Description>
+    <rdf:Description>
+        <foaf:homepage rdf:resource="http://www.w3.org/People/all#phila"/>
+    </rdf:Description>
+    <rdf:Description>
+        <foaf:homepage rdf:resource="http://makxdekkers.com/"/>
+    </rdf:Description>
+    <rdf:Description>
+        <foaf:homepage rdf:resource="http://www.andrea-perego.name/foaf/#me"/>
+    </rdf:Description>
+    <rdf:Description>
+        <foaf:homepage rdf:resource="https://agbeltran.github.io"/>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://purl.org/dc/terms/Agent">
+        <rdfs:label xml:lang="en">Agent</rdfs:label>
+        <rdfs:comment xml:lang="en">A resource that acts or has the power to act.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
+        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-01-14</terms:issued>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/dc/terms/Location">
+        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-01-14</terms:issued>
+        <rdfs:label xml:lang="en">Location</rdfs:label>
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
+        <rdfs:comment xml:lang="en">A spatial region or named place.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/dc/terms/conformsTo">
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
+        <rdfs:label xml:lang="en">Conforms To</rdfs:label>
+        <rdfs:comment xml:lang="en">An established standard to which the described resource conforms.</rdfs:comment>
+        <dcam:rangeIncludes rdf:resource="http://purl.org/dc/terms/Standard"/>
+        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2001-05-21</terms:issued>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/dc/terms/description">
+        <rdfs:label xml:lang="en">Description</rdfs:label>
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
+        <rdfs:comment xml:lang="en">An account of the resource.</rdfs:comment>
+        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-01-14</terms:issued>
+        <terms:description xml:lang="en">Description may include but is not limited to: an abstract, a table of contents, a graphical representation, or a free-text account of the resource.</terms:description>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/dc/terms/hasVersion">
+        <rdfs:comment xml:lang="en">A related resource that is a version, edition, or adaptation of the described resource.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
+        <rdfs:label xml:lang="en">Has Version</rdfs:label>
+        <terms:description xml:lang="en">Changes in version imply substantive changes in content rather than differences in format. This property is intended to be used with non-literal values. This property is an inverse property of Is Version Of.</terms:description>
+        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2000-07-11</terms:issued>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/dc/terms/isPartOf">
+        <rdfs:label xml:lang="en">Is Part Of</rdfs:label>
+        <terms:description xml:lang="en">This property is intended to be used with non-literal values. This property is an inverse property of Has Part.</terms:description>
+        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2000-07-11</terms:issued>
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
+        <rdfs:comment xml:lang="en">A related resource in which the described resource is physically or logically included.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/dc/terms/license">
+        <terms:description xml:lang="en">Recommended practice is to identify the license document with a URI. If this is not possible or feasible, a literal value that identifies the license may be provided.</terms:description>
+        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-06-14</terms:issued>
+        <rdfs:label xml:lang="en">License</rdfs:label>
+        <dcam:rangeIncludes rdf:resource="http://purl.org/dc/terms/LicenseDocument"/>
+        <rdfs:comment xml:lang="en">A legal document giving official permission to do something with the resource.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/dc/terms/publisher">
+        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-01-14</terms:issued>
+        <rdfs:label xml:lang="en">Publisher</rdfs:label>
+        <dcam:rangeIncludes rdf:resource="http://purl.org/dc/terms/Agent"/>
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
+        <rdfs:comment xml:lang="en">An entity responsible for making the resource available.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/dc/terms/spatial">
+        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2000-07-11</terms:issued>
+        <rdfs:label xml:lang="en">Spatial Coverage</rdfs:label>
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
+        <rdfs:comment xml:lang="en">Spatial characteristics of the resource.</rdfs:comment>
+        <dcam:rangeIncludes rdf:resource="http://purl.org/dc/terms/Location"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/dc/terms/title">
+        <rdfs:label xml:lang="en">Title</rdfs:label>
+        <rdfs:comment xml:lang="en">A name given to the resource.</rdfs:comment>
+        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-01-14</terms:issued>
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
+

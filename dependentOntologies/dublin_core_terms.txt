@@ -1,0 +1,10 @@
+http://purl.org/dc/terms/Location
+http://purl.org/dc/terms/title
+http://purl.org/dc/terms/description
+http://purl.org/dc/terms/publisher
+http://purl.org/dc/terms/spatial
+http://purl.org/dc/terms/license
+http://purl.org/dc/terms/hasVersion 
+http://purl.org/dc/terms/conformsTo
+http://purl.org/dc/terms/keyword 
+http://purl.org/dc/terms/isPartOf 
