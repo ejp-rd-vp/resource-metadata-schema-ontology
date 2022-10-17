@@ -407,8 +407,8 @@
         <rdfs:comment xml:lang="en">A related resource in which the described resource is physically or logically included.</rdfs:comment>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.org/dc/terms/license">
-        <issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-06-14</issued>
         <description xml:lang="en">Recommended practice is to identify the license document with a URI. If this is not possible or feasible, a literal value that identifies the license may be provided.</description>
+        <issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-06-14</issued>
         <rdfs:label xml:lang="en">License</rdfs:label>
         <dcam:rangeIncludes rdf:resource="http://purl.org/dc/terms/LicenseDocument"/>
         <rdfs:comment xml:lang="en">A legal document giving official permission to do something with the resource.</rdfs:comment>

@@ -21,6 +21,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DUO_0000017 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DUO_0000017"/>
+    
+
+
     <!-- http://purl.org/ejp-rd/vocabulary/Biobank -->
 
     <owl:Class rdf:about="http://purl.org/ejp-rd/vocabulary/Biobank">
@@ -44,6 +50,33 @@
     <owl:Class rdf:about="http://purl.org/ejp-rd/vocabulary/PatientRegistry">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/dcat#Resource"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Patient registry</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ejp-rd/vocabulary/VPConnection -->
+
+    <owl:Class rdf:about="http://purl.org/ejp-rd/vocabulary/VPConnection">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DUO_0000017"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VPConnection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ejp-rd/vocabulary/VPDiscoverable -->
+
+    <owl:Class rdf:about="http://purl.org/ejp-rd/vocabulary/VPDiscoverable">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ejp-rd/vocabulary/VPConnection"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VPDiscoverable</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ejp-rd/vocabulary/VPQueryable -->
+
+    <owl:Class rdf:about="http://purl.org/ejp-rd/vocabulary/VPQueryable">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ejp-rd/vocabulary/VPConnection"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VPQueryable</rdfs:label>
     </owl:Class>
     
 

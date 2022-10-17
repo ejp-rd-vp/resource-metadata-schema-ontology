@@ -24,6 +24,10 @@ call robot extract --method BOT ^
     --term-file dependentOntologies\sio_terms.txt ^
     --output results\sio_module.owl	
 
+call robot extract --method BOT ^
+    --input dependentOntologies\duo.owl ^
+    --term-file dependentOntologies\duo_terms.txt ^
+    --output results\duo_module.owl
 
 call robot template --template extension\ejprd-schema-template.csv ^
   --ontology-iri "http://purl.org/ejp-rd/vocabulary/ejprd_resource_metadata_ontology.owl"  ^
@@ -36,7 +40,7 @@ call robot merge --include-annotations true ^
   --input extension\extension.owl ^
   --input results\dcat2_module.owl ^
   --input results\dublin_core_module.owl ^
-  --input results\edam_module.owl ^
   --input results\foaf_module.owl ^
   --input results\sio_module.owl ^
+  --input results\duo_module.owl ^
   --output ejprd_resource_metadata_ontology.owl  

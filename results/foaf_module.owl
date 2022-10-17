@@ -104,9 +104,22 @@
     <!-- http://xmlns.com/foaf/0.1/Document -->
 
     <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Document">
+        <owl:disjointWith rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdfs:comment>A document.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://xmlns.com/foaf/0.1/"/>
         <rdfs:label>Document</rdfs:label>
+        <ns:term_status>stable</ns:term_status>
+    </owl:Class>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Organization -->
+
+    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Organization">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <rdfs:comment>An organization.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://xmlns.com/foaf/0.1/"/>
+        <rdfs:label>Organization</rdfs:label>
         <ns:term_status>stable</ns:term_status>
     </owl:Class>
 </rdf:RDF>

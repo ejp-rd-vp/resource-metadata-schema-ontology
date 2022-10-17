@@ -3,3 +3,6 @@ ID,LABEL,TYPE,SC %
 ejprd:Biobank,Biobank,class,dcat:Resource
 ejprd:PatientRegistry,Patient registry,class,dcat:Resource
 ejprd:Guideline,Guideline,class,dcat:Resource
+ejprd:VPConnection,VPConnection,class,duo:DUO_0000017
+ejprd:VPDiscoverable,VPDiscoverable,class,ejprd:VPConnection
+ejprd:VPQueryable,VPQueryable,class,ejprd:VPConnection
