@@ -451,6 +451,17 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     
 
 
+    <!-- http://purl.org/ejp-rd/vocabulary/vpQueryable -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/ejp-rd/vocabulary/vpQueryable">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+        <rdfs:range rdf:resource="http://purl.org/ejp-rd/vocabulary/VPConnection"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vpQueryable</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://semanticscience.org/resource/SIO_000001 -->
 
     <owl:ObjectProperty rdf:about="http://semanticscience.org/resource/SIO_000001">
@@ -2765,9 +2776,9 @@ Previous. An information content entity is a non-realizable information entity t
 
     <rdf:Description rdf:about="http://purl.org/dc/terms/Agent">
         <rdfs:label xml:lang="en">Agent</rdfs:label>
-        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
-        <rdfs:comment xml:lang="en">A resource that acts or has the power to act.</rdfs:comment>
         <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-01-14</terms:issued>
+        <rdfs:comment xml:lang="en">A resource that acts or has the power to act.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.org/dc/terms/Location">
         <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-01-14</terms:issued>
@@ -2790,8 +2801,8 @@ Previous. An information content entity is a non-realizable information entity t
         <terms:description xml:lang="en">Description may include but is not limited to: an abstract, a table of contents, a graphical representation, or a free-text account of the resource.</terms:description>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.org/dc/terms/hasVersion">
-        <rdfs:comment xml:lang="en">A related resource that is a version, edition, or adaptation of the described resource.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
+        <rdfs:comment xml:lang="en">A related resource that is a version, edition, or adaptation of the described resource.</rdfs:comment>
         <rdfs:label xml:lang="en">Has Version</rdfs:label>
         <terms:description xml:lang="en">Changes in version imply substantive changes in content rather than differences in format. This property is intended to be used with non-literal values. This property is an inverse property of Is Version Of.</terms:description>
         <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2000-07-11</terms:issued>

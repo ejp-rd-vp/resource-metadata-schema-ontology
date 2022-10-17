@@ -13,6 +13,34 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000087 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000087"/>
+    
+
+
+    <!-- http://purl.org/ejp-rd/vocabulary/vpQueryable -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/ejp-rd/vocabulary/vpQueryable">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+        <rdfs:range rdf:resource="http://purl.org/ejp-rd/vocabulary/VPConnection"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vpQueryable</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
     // Classes
     //
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -78,6 +106,12 @@
         <rdfs:subClassOf rdf:resource="http://purl.org/ejp-rd/vocabulary/VPConnection"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VPQueryable</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/ns/dcat#Dataset -->
+
+    <owl:Class rdf:about="http://www.w3.org/ns/dcat#Dataset"/>
     
 
 
