@@ -7,3 +7,4 @@ ejprd:VPConnection,VPConnection,class,duo:DUO_0000017,,,
 ejprd:VPDiscoverable,VPDiscoverable,class,ejprd:VPConnection,,,
 ejprd:VPQueryable,VPQueryable,class,ejprd:VPConnection,,,
 ejprd:vpQueryable,vpQueryable,owl:ObjectProperty,,duo:RO_0000087,dcat:Dataset,ejprd:VPConnection
+ejprd:personalData,personalData,owl:DataProperty,,duo:DUO_0000017,dcat:Resource,xsd:string

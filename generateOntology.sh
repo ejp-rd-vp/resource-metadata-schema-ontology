@@ -33,6 +33,7 @@ robot.sh template --template extension/ejprd-schema-template.csv \
   --prefix "dcat: http://www.w3.org/ns/dcat#" \
   --prefix "duo: http://purl.obolibrary.org/obo/" \
   --prefix "owl:http://www.w3.org/2002/07/owl#" \
+  --prefix "xsd:http://www.w3.org/2001/XMLSchema#" \
   --output extension/extension.owl
 
 robot.sh merge --include-annotations true \
