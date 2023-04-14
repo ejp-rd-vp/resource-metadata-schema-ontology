@@ -60,7 +60,7 @@
     <owl:DatatypeProperty rdf:about="http://purl.org/ejp-rd/vocabulary/personalData">
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/DUO_0000017"/>
         <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Resource"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">personalData</rdfs:label>
     </owl:DatatypeProperty>
     
