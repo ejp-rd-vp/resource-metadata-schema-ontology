@@ -451,13 +451,13 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     
 
 
-    <!-- http://purl.org/ejp-rd/vocabulary/vpQueryable -->
+    <!-- http://purl.org/ejp-rd/vocabulary/vpConnection -->
 
-    <owl:ObjectProperty rdf:about="http://purl.org/ejp-rd/vocabulary/vpQueryable">
+    <owl:ObjectProperty rdf:about="http://purl.org/ejp-rd/vocabulary/vpConnection">
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-        <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Resource"/>
         <rdfs:range rdf:resource="http://purl.org/ejp-rd/vocabulary/VPConnection"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vpQueryable</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vpConnection</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1804,20 +1804,20 @@ Previous. An information content entity is a non-realizable information entity t
     
 
 
+    <!-- http://purl.org/ejp-rd/vocabulary/VPContentDiscoverable -->
+
+    <owl:Class rdf:about="http://purl.org/ejp-rd/vocabulary/VPContentDiscoverable">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ejp-rd/vocabulary/VPDiscoverable"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VPContentDiscoverable</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/ejp-rd/vocabulary/VPDiscoverable -->
 
     <owl:Class rdf:about="http://purl.org/ejp-rd/vocabulary/VPDiscoverable">
         <rdfs:subClassOf rdf:resource="http://purl.org/ejp-rd/vocabulary/VPConnection"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VPDiscoverable</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/ejp-rd/vocabulary/VPQueryable -->
-
-    <owl:Class rdf:about="http://purl.org/ejp-rd/vocabulary/VPQueryable">
-        <rdfs:subClassOf rdf:resource="http://purl.org/ejp-rd/vocabulary/VPConnection"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VPQueryable</rdfs:label>
     </owl:Class>
     
 
@@ -2795,9 +2795,9 @@ Previous. An information content entity is a non-realizable information entity t
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.org/dc/terms/Agent">
         <rdfs:label xml:lang="en">Agent</rdfs:label>
-        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-01-14</terms:issued>
-        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
         <rdfs:comment xml:lang="en">A resource that acts or has the power to act.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
+        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-01-14</terms:issued>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.org/dc/terms/Location">
         <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-01-14</terms:issued>
@@ -2815,8 +2815,8 @@ Previous. An information content entity is a non-realizable information entity t
     <rdf:Description rdf:about="http://purl.org/dc/terms/description">
         <rdfs:label xml:lang="en">Description</rdfs:label>
         <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
-        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-01-14</terms:issued>
         <rdfs:comment xml:lang="en">An account of the resource.</rdfs:comment>
+        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-01-14</terms:issued>
         <terms:description xml:lang="en">Description may include but is not limited to: an abstract, a table of contents, a graphical representation, or a free-text account of the resource.</terms:description>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.org/dc/terms/hasVersion">
@@ -2828,8 +2828,8 @@ Previous. An information content entity is a non-realizable information entity t
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.org/dc/terms/isPartOf">
         <rdfs:label xml:lang="en">Is Part Of</rdfs:label>
-        <terms:description xml:lang="en">This property is intended to be used with non-literal values. This property is an inverse property of Has Part.</terms:description>
         <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2000-07-11</terms:issued>
+        <terms:description xml:lang="en">This property is intended to be used with non-literal values. This property is an inverse property of Has Part.</terms:description>
         <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
         <rdfs:comment xml:lang="en">A related resource in which the described resource is physically or logically included.</rdfs:comment>
     </rdf:Description>
