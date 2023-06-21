@@ -26,6 +26,11 @@ robot.sh extract --method BOT \
     --term-file dependentOntologies/duo_terms.txt \
     --output results/duo_module.owl
 
+robot.sh extract --method BOT \
+    --input dependentOntologies/schemaorg.owl \
+    --term-file dependentOntologies/schemaorg_terms.txt \
+    --output results/schemaorg_module.owl
+
 robot.sh template --template extension/ejprd-schema-template.csv \
   --ontology-iri "http://purl.org/ejp-rd/vocabulary/ejprd_resource_metadata_ontology.owl"  \
   --input dependentOntologies/dcat2.rdf \
@@ -34,6 +39,7 @@ robot.sh template --template extension/ejprd-schema-template.csv \
   --prefix "duo: http://purl.obolibrary.org/obo/" \
   --prefix "owl:http://www.w3.org/2002/07/owl#" \
   --prefix "xsd:http://www.w3.org/2001/XMLSchema#" \
+  --prefix "schema:https://schema.org/" \
   --output extension/extension.owl
 
 robot.sh merge --include-annotations true \

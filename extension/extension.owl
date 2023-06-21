@@ -66,6 +66,23 @@
     
 
 
+    <!-- http://purl.org/ejp-rd/vocabulary/populationCoverage -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/ejp-rd/vocabulary/populationCoverage">
+        <rdfs:subPropertyOf rdf:resource="https://schema.org/populationType"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Resource"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">populationCoverage</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://schema.org/populationType -->
+
+    <owl:DatatypeProperty rdf:about="https://schema.org/populationType"/>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
