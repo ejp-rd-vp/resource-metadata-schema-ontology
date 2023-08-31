@@ -7,4 +7,7 @@ http://purl.org/dc/terms/license
 http://purl.org/dc/terms/hasVersion 
 http://purl.org/dc/terms/conformsTo
 http://purl.org/dc/terms/keyword 
-http://purl.org/dc/terms/isPartOf 
+http://purl.org/dc/terms/isPartOf
+http://purl.org/dc/terms/identifier
+http://purl.org/dc/terms/issued
+http://purl.org/dc/terms/modified

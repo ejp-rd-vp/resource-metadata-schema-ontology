@@ -10,3 +10,4 @@ http://www.w3.org/ns/dcat#distribution
 http://www.w3.org/ns/dcat#downloadURL
 http://www.w3.org/ns/dcat#accessURL 
 http://www.w3.org/ns/dcat#mediaType 
+http://www.w3.org/ns/dcat#contactPoint

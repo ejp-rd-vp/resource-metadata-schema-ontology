@@ -376,15 +376,15 @@ we don't want the implied rdfs:domain here.
     <rdfs:isDefinedBy rdf:resource="http://xmlns.com/foaf/0.1/"/>
     <owl:inverseOf rdf:resource="http://xmlns.com/foaf/0.1/maker"/>
   </rdf:Property>
-  <rdf:Property rdf:about="http://xmlns.com/foaf/0.1/maker"  vs:term_status="stable" rdfs:label="maker" rdfs:comment="An agent that 
-made this thing.">
-    <owl:equivalentProperty rdf:resource="http://purl.org/dc/terms/creator"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-    <rdfs:isDefinedBy rdf:resource="http://xmlns.com/foaf/0.1/"/>
-    <owl:inverseOf rdf:resource="http://xmlns.com/foaf/0.1/made"/>
-  </rdf:Property>
+<!--   <rdf:Property rdf:about="http://xmlns.com/foaf/0.1/maker"  vs:term_status="stable" rdfs:label="maker" rdfs:comment="An agent that  -->
+<!-- made this thing."> -->
+<!--     <owl:equivalentProperty rdf:resource="http://purl.org/dc/terms/creator"/> -->
+<!--     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/> -->
+<!--     <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/> -->
+<!--     <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/> -->
+<!--     <rdfs:isDefinedBy rdf:resource="http://xmlns.com/foaf/0.1/"/> -->
+<!--     <owl:inverseOf rdf:resource="http://xmlns.com/foaf/0.1/made"/> -->
+<!--   </rdf:Property> -->
   <rdf:Property rdf:about="http://xmlns.com/foaf/0.1/img" vs:term_status="testing" rdfs:label="image" rdfs:comment="An image that can be used to represent some thing (ie. those depictions which are particularly representative of something, eg. one's photo on a homepage).">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
     <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>

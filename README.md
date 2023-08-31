@@ -10,8 +10,12 @@ This ontology is built using [ROBOT](http://robot.obolibrary.org/). Ensure that 
 3. Friend of a friend: [FOAF 20140114](http://xmlns.com/foaf/spec/20140114.html)
 4. Semanticscience Integrated Ontology:  [SIO](https://raw.githubusercontent.com/micheldumontier/semanticscience/master/ontology/sio/release/sio-release.owl)
 5. Data Use Ontology: [DUO](https://www.ebi.ac.uk/ols/ontologies/duo)
+6. vCard Ontology: [vCard](https://www.w3.org/TR/vcard-rdf/). This ontology is used because it is used in DCAT for specifying
+contact information. 
 
-These ontologies have been downloaded to the `/dependentOntologies` directory. In the case of Dublin Core we needed to add the ontology IRI as ROBOT complains when an ontology IRI is not present. The file containing this change is stored as `/dependentOntologies/dublin_core_terms.owl`.
+
+These ontologies have been downloaded to the `/dependentOntologies` directory. In the case of Dublin Core we needed to
+add the ontology IRI as ROBOT complains when an ontology IRI is not present. The file containing this change is stored as `/dependentOntologies/dublin_core_terms.owl`.
 
 ## Basic steps taken to create the ontology.
 The `generateOntology.bat` file can be run to generate the ontology. The basic steps are the following:

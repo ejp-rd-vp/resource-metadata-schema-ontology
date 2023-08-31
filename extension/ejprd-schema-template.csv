@@ -9,3 +9,5 @@ ejprd:VPContentDiscovery,VPContentDiscovery,class,ejprd:VPConnection,,,
 ejprd:vpConnection,vpConnection,owl:ObjectProperty,,duo:RO_0000087,dcat:Resource,ejprd:VPConnection
 ejprd:personalData,personalData,owl:DataProperty,,duo:DUO_0000017,dcat:Resource,xsd:string
 ejprd:populationCoverage,populationCoverage,owl:DataProperty,,schema:populationType,dcat:Resource,xsd:string
+vcard:hasEmail,hasEmail,owl:DataProperty,,,vcard:Kind,xsd:string
+vcard:hasTelephone,hasTelephone,owl:DataProperty,,,vcard:Kind,xsd:string
