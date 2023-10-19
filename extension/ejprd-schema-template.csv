@@ -1,13 +1,14 @@
-ID,Label,Entity Type,Superclass,Superproperty,Domain,Range
-ID,LABEL,TYPE,SC %,SP %,DOMAIN,RANGE
-ejprd:Biobank,Biobank,class,dcat:Resource,,,
-ejprd:PatientRegistry,Patient registry,class,dcat:Resource,,,
-ejprd:Guideline,Guideline,class,dcat:Resource,,,
-ejprd:VPConnection,VPConnection,class,duo:DUO_0000017,,,
-ejprd:VPDiscoverable,VPDiscoverable,class,ejprd:VPConnection,,,
-ejprd:VPContentDiscovery,VPContentDiscovery,class,ejprd:VPConnection,,,
-ejprd:vpConnection,vpConnection,owl:ObjectProperty,,duo:RO_0000087,dcat:Resource,ejprd:VPConnection
-ejprd:personalData,personalData,owl:DataProperty,,duo:DUO_0000017,dcat:Resource,xsd:string
-ejprd:populationCoverage,populationCoverage,owl:DataProperty,,schema:populationType,dcat:Resource,xsd:string
-vcard:hasEmail,hasEmail,owl:DataProperty,,,vcard:Kind,xsd:string
-vcard:hasTelephone,hasTelephone,owl:DataProperty,,,vcard:Kind,xsd:string
+ID,Label,Definition,Deprecated,Entity Type,Superclass,Superproperty,Domain,Range
+ID,LABEL,A rdfs:comment,A owl:deprecated,TYPE,SC %,SP %,DOMAIN,RANGE
+ejprd:Biobank,Biobank,,,class,dcat:Resource,,,
+ejprd:PatientRegistry,Patient registry,,,class,dcat:Resource,,,
+ejprd:Guideline,Guideline,,,class,dcat:Resource,,,
+ejprd:VPConnection,VPConnection,,true,class,duo:DUO_0000017,,,
+ejprd:VPDiscoverable,VPDiscoverable,,true,class,ejprd:VPConnection,,,
+ejprd:VPContentDiscovery,VPContentDiscovery,,true,class,ejprd:VPConnection,,,
+ejprd:VPBeacon2_individuals,VPBeacon2_individuals,The annotated resource (always a DataService) provides the Beacon2 /individuals interface.,,class,edam:operation_2421,,,
+ejprd:VPBeacon2_catalog,VPBeacon2_catalog,The annotated resource (always a DataService) provides the Beacon2 /catalog interface.,,class,edam:operation_2421,,,
+ejprd:personalData,personalData,,owl:DataProperty,,,duo:RO_0000087,dcat:Resource,xsd:string
+ejprd:populationCoverage,populationCoverage,,,owl:DataProperty,,schema:populationType,dcat:Resource,xsd:string
+vcard:hasEmail,hasEmail,,,owl:DataProperty,,,vcard:Kind,xsd:string
+vcard:hasTelephone,hasTelephone,,,owl:DataProperty,,,vcard:Kind,xsd:string
