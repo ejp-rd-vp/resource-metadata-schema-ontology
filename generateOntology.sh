@@ -42,7 +42,7 @@ robot.sh extract --method STAR \
     --output results/vcard_module.owl
 
 robot.sh -v template --template extension/ejprd-schema-template.csv \
-  --ontology-iri "https://w3id.org/ejp-rd/vocabulary#ejprd_resource_metadata_ontology.owl"  \
+  --ontology-iri "https://w3id.org/ejp-rd/vocabulary"  \
   --input dependentOntologies/dcat2.rdf \
   --prefix "ejprd: https://w3id.org/ejp-rd/vocabulary#" \
   --prefix "dcat: http://www.w3.org/ns/dcat#" \
