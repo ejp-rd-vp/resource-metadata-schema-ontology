@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://purl.org/ejp-rd/vocabulary/ejprd_resource_metadata_ontology.owl#"
-     xml:base="http://purl.org/ejp-rd/vocabulary/ejprd_resource_metadata_ontology.owl"
+<rdf:RDF xmlns="https://w3id.org/ejp-rd/vocabulary#ejprd_resource_metadata_ontology.owl#"
+     xml:base="https://w3id.org/ejp-rd/vocabulary#ejprd_resource_metadata_ontology.owl"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:ns="http://www.w3.org/2003/06/sw-vocab-status/ns#"
      xmlns:obo="http://purl.obolibrary.org/obo/"
@@ -19,7 +19,7 @@
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:resource="http://semanticscience.org/resource/"
      xmlns:edamontology="http://edamontology.org/">
-    <owl:Ontology rdf:about="http://purl.org/ejp-rd/vocabulary/ejprd_resource_metadata_ontology.owl"/>
+    <owl:Ontology rdf:about="https://w3id.org/ejp-rd/vocabulary#ejprd_resource_metadata_ontology.owl"/>
     
 
 
@@ -325,6 +325,12 @@
     <!-- http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#id -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
     
 
 
@@ -787,6 +793,11 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
         <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <obo:IAO_0000112 xml:lang="en">this person has role this investigator role (more colloquially: this person has this role of investigator)</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">a relation between an independent continuant (the bearer) and a role, in which the role specifically depends on the bearer for its existence</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">A bearer can have many roles, and its roles can exist for different periods of time, but none of its roles can exist when the bearer does not exist. A role need not be realized at all the times that the role exists.</obo:IAO_0000116>
+        <obo:IAO_0000118 xml:lang="en">has_role</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">has role</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -3248,12 +3259,6 @@ http://www.w3.org/TR/2013/REC-prov-constraints-20130430/#term-Revision 23 April 
     
 
 
-    <!-- http://purl.obolibrary.org/obo/RO_0000087 -->
-
-    <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000087"/>
-    
-
-
     <!-- http://purl.org/dc/terms/alternative -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/dc/terms/alternative">
@@ -3301,28 +3306,6 @@ http://www.w3.org/TR/2013/REC-prov-constraints-20130430/#term-Revision 23 April 
     <!-- http://purl.org/dc/terms/title -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/dc/terms/title"/>
-    
-
-
-    <!-- http://purl.org/ejp-rd/vocabulary/personalData -->
-
-    <owl:DatatypeProperty rdf:about="http://purl.org/ejp-rd/vocabulary/personalData">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-        <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Resource"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">personalData</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://purl.org/ejp-rd/vocabulary/populationCoverage -->
-
-    <owl:DatatypeProperty rdf:about="http://purl.org/ejp-rd/vocabulary/populationCoverage">
-        <rdfs:subPropertyOf rdf:resource="https://schema.org/populationType"/>
-        <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Resource"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">populationCoverage</rdfs:label>
-    </owl:DatatypeProperty>
     
 
 
@@ -3734,6 +3717,17 @@ http://www.w3.org/TR/2013/REC-prov-constraints-20130430/#term-Revision 23 April 
     <!-- https://schema.org/populationType -->
 
     <owl:DatatypeProperty rdf:about="https://schema.org/populationType"/>
+    
+
+
+    <!-- https://w3id.org/ejp-rd/vocabulary#populationCoverage -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/ejp-rd/vocabulary#populationCoverage">
+        <rdfs:subPropertyOf rdf:resource="https://schema.org/populationType"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Resource"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">populationCoverage</rdfs:label>
+    </owl:DatatypeProperty>
     
 
 
@@ -4490,7 +4484,12 @@ http://www.w3.org/TR/2013/REC-prov-constraints-20130430/#term-Revision 23 April 
 
     <!-- http://purl.obolibrary.org/obo/DUO_0000017 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DUO_0000017"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DUO_0000017">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <obo:IAO_0000115 xml:lang="en">Data use modifiers indicate additional conditions for use.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DUO:0000017</oboInOwl:id>
+        <rdfs:label xml:lang="en">data use modifier</rdfs:label>
+    </owl:Class>
     
 
 
@@ -4657,71 +4656,6 @@ Previous. An information content entity is a non-realizable information entity t
     <!-- http://purl.org/dc/terms/Location -->
 
     <owl:Class rdf:about="http://purl.org/dc/terms/Location"/>
-    
-
-
-    <!-- http://purl.org/ejp-rd/vocabulary/Biobank -->
-
-    <owl:Class rdf:about="http://purl.org/ejp-rd/vocabulary/Biobank">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/dcat#Resource"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biobank</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/ejp-rd/vocabulary/Guideline -->
-
-    <owl:Class rdf:about="http://purl.org/ejp-rd/vocabulary/Guideline">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/dcat#Resource"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Guideline</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/ejp-rd/vocabulary/PatientRegistry -->
-
-    <owl:Class rdf:about="http://purl.org/ejp-rd/vocabulary/PatientRegistry">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/dcat#Resource"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Patient registry</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/ejp-rd/vocabulary/VPBeacon2_catalog -->
-
-    <owl:Class rdf:about="http://purl.org/ejp-rd/vocabulary/VPBeacon2_catalog">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/operation_2421"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The annotated resource (always a DataService) provides the Beacon2 /catalog interface.</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VPBeacon2_catalog</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/ejp-rd/vocabulary/VPBeacon2_individuals -->
-
-    <owl:Class rdf:about="http://purl.org/ejp-rd/vocabulary/VPBeacon2_individuals">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/operation_2421"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The annotated resource (always a DataService) provides the Beacon2 /individuals interface.</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VPBeacon2_individuals</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/ejp-rd/vocabulary/VPConnection -->
-
-    <owl:Class rdf:about="http://purl.org/ejp-rd/vocabulary/VPConnection">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DUO_0000017"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VPConnection</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/ejp-rd/vocabulary/VPDiscoverable -->
-
-    <owl:Class rdf:about="http://purl.org/ejp-rd/vocabulary/VPDiscoverable">
-        <rdfs:subClassOf rdf:resource="http://purl.org/ejp-rd/vocabulary/VPConnection"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VPDiscoverable</rdfs:label>
-    </owl:Class>
     
 
 
@@ -5680,6 +5614,92 @@ A primary source relation is a particular case of derivation of secondary materi
     
 
 
+    <!-- https://w3id.org/ejp-rd/vocabulary#Biobank -->
+
+    <owl:Class rdf:about="https://w3id.org/ejp-rd/vocabulary#Biobank">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/dcat#Resource"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biobank</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/ejp-rd/vocabulary#Guideline -->
+
+    <owl:Class rdf:about="https://w3id.org/ejp-rd/vocabulary#Guideline">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/dcat#Resource"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Guideline</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/ejp-rd/vocabulary#PatientRegistry -->
+
+    <owl:Class rdf:about="https://w3id.org/ejp-rd/vocabulary#PatientRegistry">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/dcat#Resource"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Patient registry</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/ejp-rd/vocabulary#VPBeacon2_catalog -->
+
+    <owl:Class rdf:about="https://w3id.org/ejp-rd/vocabulary#VPBeacon2_catalog">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/operation_2421"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The annotated resource (always a DataService) provides the Beacon2 /catalog interface.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VPBeacon2_catalog</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/ejp-rd/vocabulary#VPBeacon2_individuals -->
+
+    <owl:Class rdf:about="https://w3id.org/ejp-rd/vocabulary#VPBeacon2_individuals">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/operation_2421"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The annotated resource (always a DataService) provides the Beacon2 /individuals interface.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VPBeacon2_individuals</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/ejp-rd/vocabulary#VPConnection -->
+
+    <owl:Class rdf:about="https://w3id.org/ejp-rd/vocabulary#VPConnection">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DUO_0000017"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VPConnection</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#string">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/ejp-rd/vocabulary#VPContentDiscovery -->
+
+    <owl:Class rdf:about="https://w3id.org/ejp-rd/vocabulary#VPContentDiscovery">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ejp-rd/vocabulary#VPConnection"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VPContentDiscovery</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#string">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/ejp-rd/vocabulary#VPDiscoverable -->
+
+    <owl:Class rdf:about="https://w3id.org/ejp-rd/vocabulary#VPDiscoverable">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ejp-rd/vocabulary#VPConnection"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VPDiscoverable</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#string">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/ejp-rd/vocabulary#personalData -->
+
+    <owl:Class rdf:about="https://w3id.org/ejp-rd/vocabulary#personalData">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">personalData</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#string">owl:DataProperty</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -5979,16 +5999,6 @@ A primary source relation is a particular case of derivation of secondary materi
     
 
 
-    <!-- http://purl.org/ejp-rd/vocabulary/VPContentDiscovery -->
-
-    <owl:NamedIndividual rdf:about="http://purl.org/ejp-rd/vocabulary/VPContentDiscovery">
-        <rdf:type rdf:resource="http://purl.org/ejp-rd/vocabulary/VPConnection"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">class</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VPContentDiscovery</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://www.w3.org/ns/prov-o -->
 
     <owl:NamedIndividual rdf:about="http://www.w3.org/ns/prov-o"/>
@@ -6018,13 +6028,6 @@ A primary source relation is a particular case of derivation of secondary materi
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0000087">
-        <obo:IAO_0000112 xml:lang="en">this person has role this investigator role (more colloquially: this person has this role of investigator)</obo:IAO_0000112>
-        <obo:IAO_0000116 xml:lang="en">A bearer can have many roles, and its roles can exist for different periods of time, but none of its roles can exist when the bearer does not exist. A role need not be realized at all the times that the role exists.</obo:IAO_0000116>
-        <obo:IAO_0000115 xml:lang="en">a relation between an independent continuant (the bearer) and a role, in which the role specifically depends on the bearer for its existence</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">has role</rdfs:label>
-        <obo:IAO_0000118 xml:lang="en">has_role</obo:IAO_0000118>
-    </rdf:Description>
     <rdf:Description rdf:about="http://purl.org/dc/terms/Location">
         <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-01-14</terms:issued>
         <rdfs:label xml:lang="en">Location</rdfs:label>
@@ -6046,23 +6049,23 @@ A primary source relation is a particular case of derivation of secondary materi
         <terms:description xml:lang="en">Description may include but is not limited to: an abstract, a table of contents, a graphical representation, or a free-text account of the resource.</terms:description>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.org/dc/terms/hasVersion">
-        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
         <rdfs:comment xml:lang="en">A related resource that is a version, edition, or adaptation of the described resource.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
         <rdfs:label xml:lang="en">Has Version</rdfs:label>
         <terms:description xml:lang="en">Changes in version imply substantive changes in content rather than differences in format. This property is intended to be used with non-literal values. This property is an inverse property of Is Version Of.</terms:description>
         <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2000-07-11</terms:issued>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.org/dc/terms/identifier">
-        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
         <terms:description xml:lang="en">Recommended practice is to identify the resource by means of a string conforming to an identification system. Examples include International Standard Book Number (ISBN), Digital Object Identifier (DOI), and Uniform Resource Name (URN).  Persistent identifiers should be provided as HTTP URIs.</terms:description>
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
         <rdfs:comment xml:lang="en">An unambiguous reference to the resource within a given context.</rdfs:comment>
         <rdfs:label xml:lang="en">Identifier</rdfs:label>
         <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-01-14</terms:issued>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.org/dc/terms/isPartOf">
         <rdfs:label xml:lang="en">Is Part Of</rdfs:label>
-        <terms:description xml:lang="en">This property is intended to be used with non-literal values. This property is an inverse property of Has Part.</terms:description>
         <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2000-07-11</terms:issued>
+        <terms:description xml:lang="en">This property is intended to be used with non-literal values. This property is an inverse property of Has Part.</terms:description>
         <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
         <rdfs:comment xml:lang="en">A related resource in which the described resource is physically or logically included.</rdfs:comment>
     </rdf:Description>
@@ -6076,8 +6079,8 @@ A primary source relation is a particular case of derivation of secondary materi
     <rdf:Description rdf:about="http://purl.org/dc/terms/license">
         <terms:description xml:lang="en">Recommended practice is to identify the license document with a URI. If this is not possible or feasible, a literal value that identifies the license may be provided.</terms:description>
         <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-06-14</terms:issued>
-        <rdfs:label xml:lang="en">License</rdfs:label>
         <dcam:rangeIncludes rdf:resource="http://purl.org/dc/terms/LicenseDocument"/>
+        <rdfs:label xml:lang="en">License</rdfs:label>
         <rdfs:comment xml:lang="en">A legal document giving official permission to do something with the resource.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
     </rdf:Description>
@@ -6085,8 +6088,8 @@ A primary source relation is a particular case of derivation of secondary materi
         <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
         <rdfs:label xml:lang="en">Date Modified</rdfs:label>
         <rdfs:comment xml:lang="en">Date on which the resource was changed.</rdfs:comment>
-        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2000-07-11</terms:issued>
         <terms:description xml:lang="en">Recommended practice is to describe the date, date/time, or period of time as recommended for the property Date, of which this is a subproperty.</terms:description>
+        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2000-07-11</terms:issued>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.org/dc/terms/publisher">
         <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-01-14</terms:issued>
@@ -6096,8 +6099,8 @@ A primary source relation is a particular case of derivation of secondary materi
         <rdfs:comment xml:lang="en">An entity responsible for making the resource available.</rdfs:comment>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.org/dc/terms/spatial">
-        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2000-07-11</terms:issued>
         <rdfs:label xml:lang="en">Spatial Coverage</rdfs:label>
+        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2000-07-11</terms:issued>
         <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
         <rdfs:comment xml:lang="en">Spatial characteristics of the resource.</rdfs:comment>
         <dcam:rangeIncludes rdf:resource="http://purl.org/dc/terms/Location"/>
