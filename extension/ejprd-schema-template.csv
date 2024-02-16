@@ -8,6 +8,7 @@ ejprd:VPDiscoverable,VPDiscoverable,,true,class,ejprd:VPConnection,,,
 ejprd:VPContentDiscovery,VPContentDiscovery,,true,class,ejprd:VPConnection,,,
 ejprd:VPBeacon2_individuals,VPBeacon2_individuals,The annotated resource (always a DataService) provides the Beacon2 /individuals interface.,,class,edam:operation_2421,,,
 ejprd:VPBeacon2_catalog,VPBeacon2_catalog,The annotated resource (always a DataService) provides the Beacon2 /catalog interface.,,class,edam:operation_2421,,,
+ejprd:VPBeacon2_biosamples,VPBeacon2_biosamples,The annotated resource (always a DataService) provides the Beacon2 /biosamples interface.,,class,edam:operation_2421,,,
 ejprd:personalData,personalData,,owl:DataProperty,,,duo:RO_0000087,dcat:Resource,xsd:string
 ejprd:populationCoverage,populationCoverage,,,owl:DataProperty,,schema:populationType,dcat:Resource,xsd:string
 vcard:hasEmail,hasEmail,,,owl:DataProperty,,,vcard:Kind,xsd:string

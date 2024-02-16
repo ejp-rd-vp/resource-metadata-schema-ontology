@@ -295,97 +295,97 @@
 
     <rdf:Description rdf:about="http://purl.org/dc/terms/Location">
         <issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-01-14</issued>
-        <rdfs:label xml:lang="en">Location</rdfs:label>
-        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
         <rdfs:comment xml:lang="en">A spatial region or named place.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
+        <rdfs:label xml:lang="en">Location</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.org/dc/terms/conformsTo">
-        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
-        <rdfs:label xml:lang="en">Conforms To</rdfs:label>
-        <rdfs:comment xml:lang="en">An established standard to which the described resource conforms.</rdfs:comment>
         <dcam:rangeIncludes rdf:resource="http://purl.org/dc/terms/Standard"/>
         <issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2001-05-21</issued>
+        <rdfs:comment xml:lang="en">An established standard to which the described resource conforms.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
+        <rdfs:label xml:lang="en">Conforms To</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.org/dc/terms/description">
-        <rdfs:label xml:lang="en">Description</rdfs:label>
-        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
-        <rdfs:comment xml:lang="en">An account of the resource.</rdfs:comment>
-        <issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-01-14</issued>
         <description xml:lang="en">Description may include but is not limited to: an abstract, a table of contents, a graphical representation, or a free-text account of the resource.</description>
+        <issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-01-14</issued>
+        <rdfs:comment xml:lang="en">An account of the resource.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
+        <rdfs:label xml:lang="en">Description</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.org/dc/terms/hasVersion">
-        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
-        <rdfs:comment xml:lang="en">A related resource that is a version, edition, or adaptation of the described resource.</rdfs:comment>
-        <rdfs:label xml:lang="en">Has Version</rdfs:label>
         <description xml:lang="en">Changes in version imply substantive changes in content rather than differences in format. This property is intended to be used with non-literal values. This property is an inverse property of Is Version Of.</description>
         <issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2000-07-11</issued>
+        <rdfs:comment xml:lang="en">A related resource that is a version, edition, or adaptation of the described resource.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
+        <rdfs:label xml:lang="en">Has Version</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.org/dc/terms/identifier">
-        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
         <description xml:lang="en">Recommended practice is to identify the resource by means of a string conforming to an identification system. Examples include International Standard Book Number (ISBN), Digital Object Identifier (DOI), and Uniform Resource Name (URN).  Persistent identifiers should be provided as HTTP URIs.</description>
-        <rdfs:comment xml:lang="en">An unambiguous reference to the resource within a given context.</rdfs:comment>
-        <rdfs:label xml:lang="en">Identifier</rdfs:label>
         <issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-01-14</issued>
+        <rdfs:comment xml:lang="en">An unambiguous reference to the resource within a given context.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
+        <rdfs:label xml:lang="en">Identifier</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.org/dc/terms/isPartOf">
-        <rdfs:label xml:lang="en">Is Part Of</rdfs:label>
-        <issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2000-07-11</issued>
         <description xml:lang="en">This property is intended to be used with non-literal values. This property is an inverse property of Has Part.</description>
-        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
+        <issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2000-07-11</issued>
         <rdfs:comment xml:lang="en">A related resource in which the described resource is physically or logically included.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
+        <rdfs:label xml:lang="en">Is Part Of</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.org/dc/terms/issued">
         <description xml:lang="en">Recommended practice is to describe the date, date/time, or period of time as recommended for the property Date, of which this is a subproperty.</description>
-        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
-        <rdfs:comment xml:lang="en">Date of formal issuance of the resource.</rdfs:comment>
         <issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2000-07-11</issued>
+        <rdfs:comment xml:lang="en">Date of formal issuance of the resource.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
         <rdfs:label xml:lang="en">Date Issued</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.org/dc/terms/license">
+        <dcam:rangeIncludes rdf:resource="http://purl.org/dc/terms/LicenseDocument"/>
         <description xml:lang="en">Recommended practice is to identify the license document with a URI. If this is not possible or feasible, a literal value that identifies the license may be provided.</description>
         <issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-06-14</issued>
-        <dcam:rangeIncludes rdf:resource="http://purl.org/dc/terms/LicenseDocument"/>
-        <rdfs:label xml:lang="en">License</rdfs:label>
         <rdfs:comment xml:lang="en">A legal document giving official permission to do something with the resource.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
+        <rdfs:label xml:lang="en">License</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.org/dc/terms/modified">
-        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
-        <rdfs:label xml:lang="en">Date Modified</rdfs:label>
-        <rdfs:comment xml:lang="en">Date on which the resource was changed.</rdfs:comment>
         <description xml:lang="en">Recommended practice is to describe the date, date/time, or period of time as recommended for the property Date, of which this is a subproperty.</description>
         <issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2000-07-11</issued>
+        <rdfs:comment xml:lang="en">Date on which the resource was changed.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
+        <rdfs:label xml:lang="en">Date Modified</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.org/dc/terms/publisher">
-        <issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-01-14</issued>
-        <rdfs:label xml:lang="en">Publisher</rdfs:label>
         <dcam:rangeIncludes rdf:resource="http://purl.org/dc/terms/Agent"/>
-        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
+        <issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-01-14</issued>
         <rdfs:comment xml:lang="en">An entity responsible for making the resource available.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
+        <rdfs:label xml:lang="en">Publisher</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.org/dc/terms/spatial">
-        <rdfs:label xml:lang="en">Spatial Coverage</rdfs:label>
-        <issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2000-07-11</issued>
-        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
-        <rdfs:comment xml:lang="en">Spatial characteristics of the resource.</rdfs:comment>
         <dcam:rangeIncludes rdf:resource="http://purl.org/dc/terms/Location"/>
+        <issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2000-07-11</issued>
+        <rdfs:comment xml:lang="en">Spatial characteristics of the resource.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
+        <rdfs:label xml:lang="en">Spatial Coverage</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.org/dc/terms/title">
-        <rdfs:label xml:lang="en">Title</rdfs:label>
-        <rdfs:comment xml:lang="en">A name given to the resource.</rdfs:comment>
         <issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-01-14</issued>
+        <rdfs:comment xml:lang="en">A name given to the resource.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
+        <rdfs:label xml:lang="en">Title</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.org/dc/terms/type">
-        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
         <description xml:lang="en">Recommended practice is to use a controlled vocabulary such as the DCMI Type Vocabulary [[DCMI-TYPE](http://dublincore.org/documents/dcmi-type-vocabulary/)]. To describe the file format, physical medium, or dimensions of the resource, use the property Format.</description>
-        <rdfs:comment xml:lang="en">The nature or genre of the resource.</rdfs:comment>
-        <rdfs:label xml:lang="en">Type</rdfs:label>
         <issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-01-14</issued>
+        <rdfs:comment xml:lang="en">The nature or genre of the resource.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
+        <rdfs:label xml:lang="en">Type</rdfs:label>
     </rdf:Description>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.26) https://github.com/owlcs/owlapi -->
 
