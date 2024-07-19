@@ -130,6 +130,16 @@
     
 
 
+    <!-- https://w3id.org/ejp-rd/vocabulary#VPBeacon2_biosamples_4 -->
+
+    <owl:Class rdf:about="https://w3id.org/ejp-rd/vocabulary#VPBeacon2_biosamples_4">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/operation_2421"/>
+        <rdfs:comment>The annotated resource (always a DataService) provides the Beacon2 /biosamples (v4) interface.</rdfs:comment>
+        <rdfs:label>VPBeacon2_biosamples_4</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://w3id.org/ejp-rd/vocabulary#VPBeacon2_catalog -->
 
     <owl:Class rdf:about="https://w3id.org/ejp-rd/vocabulary#VPBeacon2_catalog">
@@ -140,12 +150,32 @@
     
 
 
+    <!-- https://w3id.org/ejp-rd/vocabulary#VPBeacon2_catalog_4 -->
+
+    <owl:Class rdf:about="https://w3id.org/ejp-rd/vocabulary#VPBeacon2_catalog_4">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/operation_2421"/>
+        <rdfs:comment>The annotated resource (always a DataService) provides the Beacon2 /catalog (v4) interface.</rdfs:comment>
+        <rdfs:label>VPBeacon2_catalog_4</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://w3id.org/ejp-rd/vocabulary#VPBeacon2_individuals -->
 
     <owl:Class rdf:about="https://w3id.org/ejp-rd/vocabulary#VPBeacon2_individuals">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/operation_2421"/>
         <rdfs:comment>The annotated resource (always a DataService) provides the Beacon2 /individuals interface.</rdfs:comment>
         <rdfs:label>VPBeacon2_individuals</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/ejp-rd/vocabulary#VPBeacon2_individuals_4 -->
+
+    <owl:Class rdf:about="https://w3id.org/ejp-rd/vocabulary#VPBeacon2_individuals_4">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/operation_2421"/>
+        <rdfs:comment>The annotated resource (always a DataService) provides the Beacon2 /individuals (v4) interface.</rdfs:comment>
+        <rdfs:label>VPBeacon2_individuals_4</rdfs:label>
     </owl:Class>
     
 

@@ -9,6 +9,9 @@ ejprd:VPContentDiscovery,VPContentDiscovery,,true,class,ejprd:VPConnection,,,
 ejprd:VPBeacon2_individuals,VPBeacon2_individuals,The annotated resource (always a DataService) provides the Beacon2 /individuals interface.,,class,edam:operation_2421,,,
 ejprd:VPBeacon2_catalog,VPBeacon2_catalog,The annotated resource (always a DataService) provides the Beacon2 /catalog interface.,,class,edam:operation_2421,,,
 ejprd:VPBeacon2_biosamples,VPBeacon2_biosamples,The annotated resource (always a DataService) provides the Beacon2 /biosamples interface.,,class,edam:operation_2421,,,
+ejprd:VPBeacon2_individuals_4,VPBeacon2_individuals_4,The annotated resource (always a DataService) provides the Beacon2 /individuals (v4) interface.,,class,edam:operation_2421,,,
+ejprd:VPBeacon2_catalog_4,VPBeacon2_catalog_4,The annotated resource (always a DataService) provides the Beacon2 /catalog (v4) interface.,,class,edam:operation_2421,,,
+ejprd:VPBeacon2_biosamples_4,VPBeacon2_biosamples_4,The annotated resource (always a DataService) provides the Beacon2 /biosamples (v4) interface.,,class,edam:operation_2421,,,
 ejprd:personalData,personalData,,owl:DataProperty,,,duo:RO_0000087,dcat:Resource,xsd:string
 ejprd:populationCoverage,populationCoverage,,,owl:DataProperty,,schema:populationType,dcat:Resource,xsd:string
 vcard:hasEmail,hasEmail,,,owl:DataProperty,,,vcard:Kind,xsd:string
