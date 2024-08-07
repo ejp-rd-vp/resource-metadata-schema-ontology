@@ -5,7 +5,6 @@ ejprd:PatientRegistry,Patient registry,,,class,dcat:Resource,,,
 ejprd:Guideline,Guideline,,,class,dcat:Resource,,,
 ejprd:VPConnection,VPConnection,,true,class,duo:DUO_0000017,,,
 ejprd:VPDiscoverable,VPDiscoverable,,true,class,ejprd:VPConnection,,,
-ejprd:VPContentDiscovery,VPContentDiscovery,,true,class,ejprd:VPConnection,,,
 ejprd:VPBeacon2_individuals,VPBeacon2_individuals,The annotated resource (always a DataService) provides the Beacon2 /individuals interface.,,class,edam:operation_2421,,,
 ejprd:VPBeacon2_catalog,VPBeacon2_catalog,The annotated resource (always a DataService) provides the Beacon2 /catalog interface.,,class,edam:operation_2421,,,
 ejprd:VPBeacon2_biosamples,VPBeacon2_biosamples,The annotated resource (always a DataService) provides the Beacon2 /biosamples interface.,,class,edam:operation_2421,,,
@@ -16,3 +15,5 @@ ejprd:personalData,personalData,,owl:DataProperty,,,duo:RO_0000087,dcat:Resource
 ejprd:populationCoverage,populationCoverage,,,owl:DataProperty,,schema:populationType,dcat:Resource,xsd:string
 vcard:hasEmail,hasEmail,,,owl:DataProperty,,,vcard:Kind,xsd:string
 vcard:hasTelephone,hasTelephone,,,owl:DataProperty,,,vcard:Kind,xsd:string
+ejprd:PhenotypeFrequency,PhenotypeFrequency,"A service that executes the ""phenotype frequency"" L2 demonstrator - how often does a phenotype or symptom appear in the dataset (on a per-patient basis)",,class,edam:operation_0224,,,
+ejprd:CountingCase,CountingCase,A service that executes the EJP-RD 'counting case' demonstrator - how many individuals with a specific diagnosis,,class,edam:operation_0224,,,

@@ -5599,6 +5599,16 @@ A primary source relation is a particular case of derivation of secondary materi
     
 
 
+    <!-- https://w3id.org/ejp-rd/vocabulary#CountingCase -->
+
+    <owl:Class rdf:about="https://w3id.org/ejp-rd/vocabulary#CountingCase">
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_0224"/>
+        <rdfs:comment>A service that executes the EJP-RD &apos;counting case&apos; demonstrator - how many individuals with a specific diagnosis</rdfs:comment>
+        <rdfs:label>CountingCase</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://w3id.org/ejp-rd/vocabulary#Guideline -->
 
     <owl:Class rdf:about="https://w3id.org/ejp-rd/vocabulary#Guideline">
@@ -5613,6 +5623,16 @@ A primary source relation is a particular case of derivation of secondary materi
     <owl:Class rdf:about="https://w3id.org/ejp-rd/vocabulary#PatientRegistry">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/dcat#Resource"/>
         <rdfs:label>Patient registry</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/ejp-rd/vocabulary#PhenotypeFrequency -->
+
+    <owl:Class rdf:about="https://w3id.org/ejp-rd/vocabulary#PhenotypeFrequency">
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_0224"/>
+        <rdfs:comment>A service that executes the &quot;phenotype frequency&quot; L2 demonstrator - how often does a phenotype or symptom appear in the dataset (on a per-patient basis)</rdfs:comment>
+        <rdfs:label>PhenotypeFrequency</rdfs:label>
     </owl:Class>
     
 
@@ -5682,16 +5702,6 @@ A primary source relation is a particular case of derivation of secondary materi
     <owl:Class rdf:about="https://w3id.org/ejp-rd/vocabulary#VPConnection">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DUO_0000017"/>
         <rdfs:label>VPConnection</rdfs:label>
-        <owl:deprecated>true</owl:deprecated>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/ejp-rd/vocabulary#VPContentDiscovery -->
-
-    <owl:Class rdf:about="https://w3id.org/ejp-rd/vocabulary#VPContentDiscovery">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/ejp-rd/vocabulary#VPConnection"/>
-        <rdfs:label>VPContentDiscovery</rdfs:label>
         <owl:deprecated>true</owl:deprecated>
     </owl:Class>
     
