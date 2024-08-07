@@ -17,7 +17,7 @@ robot.sh extract --method BOT \
     --output results/duo_module.owl
 
 robot.sh extract --method BOT \
-    --input dependentOntologies/EDAM.owl \
+    --input dependentOntologies/edam.owl \
     --term-file dependentOntologies/edam_terms.txt \
     --output results/edam_module.owl
 
@@ -47,7 +47,7 @@ robot.sh -v template --template extension/ejprd-schema-template.csv \
   --prefix "ejprd: https://w3id.org/ejp-rd/vocabulary#" \
   --prefix "dcat: http://www.w3.org/ns/dcat#" \
   --prefix "duo: http://purl.obolibrary.org/obo/" \
-  --prefix "edam: http://purl.obolibrary.org/obo/" \
+  --prefix "edam: http://edamontology.org/" \
   --prefix "owl:http://www.w3.org/2002/07/owl#" \
   --prefix "rdfs:http://www.w3.org/2000/01/rdf-schema#" \
   --prefix "xsd:http://www.w3.org/2001/XMLSchema#" \
