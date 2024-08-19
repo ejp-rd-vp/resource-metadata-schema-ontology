@@ -3226,7 +3226,22 @@ http://www.w3.org/TR/2013/REC-prov-constraints-20130430/#term-Revision 23 April 
 
     <!-- https://schema.org/populationType -->
 
-    <owl:ObjectProperty rdf:about="https://schema.org/populationType"/>
+    <owl:ObjectProperty rdf:about="https://schema.org/populationType">
+        <rdfs:comment xml:lang="en">Indicates the populationType common to all members of a &lt;a class=&quot;localLink&quot; href=&quot;https://schema.org/StatisticalPopulation&quot;&gt;StatisticalPopulation&lt;/a&gt; or all cases within the scope of a &lt;a class=&quot;localLink&quot; href=&quot;https://schema.org/StatisticalVariable&quot;&gt;StatisticalVariable&lt;/a&gt;.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://pending.schema.org/populationType"/>
+        <rdfs:label xml:lang="en">populationType</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/ejp-rd/vocabulary#vpConnection -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/ejp-rd/vocabulary#vpConnection">
+        <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Resource"/>
+        <rdfs:range rdf:resource="https://w3id.org/ejp-rd/vocabulary#VPDiscoverable"/>
+        <rdfs:comment>the property linking a resource to an indication of its willingness to be indexed by the VP</rdfs:comment>
+        <rdfs:label>vpConnection</rdfs:label>
+    </owl:ObjectProperty>
     
 
 
@@ -3320,21 +3335,13 @@ http://www.w3.org/TR/2013/REC-prov-constraints-20130430/#term-Revision 23 April 
 
     <!-- http://www.w3.org/2006/vcard/ns#hasEmail -->
 
-    <owl:DatatypeProperty rdf:about="http://www.w3.org/2006/vcard/ns#hasEmail">
-        <rdfs:domain rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <rdfs:label>hasEmail</rdfs:label>
-    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/2006/vcard/ns#hasEmail"/>
     
 
 
     <!-- http://www.w3.org/2006/vcard/ns#hasTelephone -->
 
-    <owl:DatatypeProperty rdf:about="http://www.w3.org/2006/vcard/ns#hasTelephone">
-        <rdfs:domain rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <rdfs:label>hasTelephone</rdfs:label>
-    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/2006/vcard/ns#hasTelephone"/>
     
 
 
@@ -3696,20 +3703,15 @@ http://www.w3.org/TR/2013/REC-prov-constraints-20130430/#term-Revision 23 April 
     
 
 
-    <!-- https://schema.org/populationType -->
+    <!-- https://w3id.org/ejp-rd/vocabulary#personalData -->
 
-    <owl:DatatypeProperty rdf:about="https://schema.org/populationType"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/ejp-rd/vocabulary#personalData"/>
     
 
 
     <!-- https://w3id.org/ejp-rd/vocabulary#populationCoverage -->
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/ejp-rd/vocabulary#populationCoverage">
-        <rdfs:subPropertyOf rdf:resource="https://schema.org/populationType"/>
-        <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Resource"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <rdfs:label>populationCoverage</rdfs:label>
-    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/ejp-rd/vocabulary#populationCoverage"/>
     
 
 
@@ -4528,6 +4530,12 @@ Previous. An information content entity is a non-realizable information entity t
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0000033 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000033"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IAO_0000078 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000078">
@@ -4752,6 +4760,12 @@ Previous. An information content entity is a non-realizable information entity t
     <owl:Class rdf:about="http://www.w3.org/2000/10/swap/pim/contact#Person">
         <owl:equivalentClass rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
     </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#DatatypeProperty -->
+
+    <owl:Class rdf:about="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
     
 
 
@@ -5599,16 +5613,6 @@ A primary source relation is a particular case of derivation of secondary materi
     
 
 
-    <!-- https://w3id.org/ejp-rd/vocabulary#CountingCase -->
-
-    <owl:Class rdf:about="https://w3id.org/ejp-rd/vocabulary#CountingCase">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_0224"/>
-        <rdfs:comment>A service that executes the EJP-RD &apos;counting case&apos; demonstrator - how many individuals with a specific diagnosis</rdfs:comment>
-        <rdfs:label>CountingCase</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- https://w3id.org/ejp-rd/vocabulary#Guideline -->
 
     <owl:Class rdf:about="https://w3id.org/ejp-rd/vocabulary#Guideline">
@@ -5710,18 +5714,8 @@ A primary source relation is a particular case of derivation of secondary materi
     <!-- https://w3id.org/ejp-rd/vocabulary#VPDiscoverable -->
 
     <owl:Class rdf:about="https://w3id.org/ejp-rd/vocabulary#VPDiscoverable">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/ejp-rd/vocabulary#VPConnection"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
         <rdfs:label>VPDiscoverable</rdfs:label>
-        <owl:deprecated>true</owl:deprecated>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/ejp-rd/vocabulary#personalData -->
-
-    <owl:Class rdf:about="https://w3id.org/ejp-rd/vocabulary#personalData">
-        <rdfs:label>personalData</rdfs:label>
-        <owl:deprecated>owl:DataProperty</owl:deprecated>
     </owl:Class>
     
 
@@ -6025,6 +6019,18 @@ A primary source relation is a particular case of derivation of secondary materi
     
 
 
+    <!-- http://www.w3.org/2006/vcard/ns#hasEmail -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2006/vcard/ns#hasEmail"/>
+    
+
+
+    <!-- http://www.w3.org/2006/vcard/ns#hasTelephone -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2006/vcard/ns#hasTelephone"/>
+    
+
+
     <!-- http://www.w3.org/ns/prov-o -->
 
     <owl:NamedIndividual rdf:about="http://www.w3.org/ns/prov-o"/>
@@ -6043,6 +6049,18 @@ A primary source relation is a particular case of derivation of secondary materi
         <prov:specializationOf rdf:resource="http://www.w3.org/ns/prov-o"/>
         <prov:wasRevisionOf rdf:resource="http://www.w3.org/ns/prov-o-20130312"/>
     </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/ejp-rd/vocabulary#personalData -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/ejp-rd/vocabulary#personalData"/>
+    
+
+
+    <!-- https://w3id.org/ejp-rd/vocabulary#populationCoverage -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/ejp-rd/vocabulary#populationCoverage"/>
     
 
 
@@ -6144,10 +6162,17 @@ A primary source relation is a particular case of derivation of secondary materi
         <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
         <rdfs:label xml:lang="en">Type</rdfs:label>
     </rdf:Description>
-    <rdf:Description rdf:about="https://schema.org/populationType">
-        <rdfs:comment xml:lang="en">Indicates the populationType common to all members of a &lt;a class=&quot;localLink&quot; href=&quot;https://schema.org/StatisticalPopulation&quot;&gt;StatisticalPopulation&lt;/a&gt; or all cases within the scope of a &lt;a class=&quot;localLink&quot; href=&quot;https://schema.org/StatisticalVariable&quot;&gt;StatisticalVariable&lt;/a&gt;.</rdfs:comment>
-        <rdfs:isDefinedBy rdf:resource="https://pending.schema.org/populationType"/>
-        <rdfs:label xml:lang="en">populationType</rdfs:label>
+    <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#hasEmail">
+        <rdfs:label>hasEmail</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#hasTelephone">
+        <rdfs:label>hasTelephone</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/ejp-rd/vocabulary#personalData">
+        <rdfs:label>personalData</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/ejp-rd/vocabulary#populationCoverage">
+        <rdfs:label>populationCoverage</rdfs:label>
     </rdf:Description>
     
 
