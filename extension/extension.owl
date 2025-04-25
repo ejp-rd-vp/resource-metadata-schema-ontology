@@ -25,7 +25,7 @@
 
     <owl:ObjectProperty rdf:about="https://w3id.org/ejp-rd/vocabulary#vpConnection">
         <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Resource"/>
-        <rdfs:range rdf:resource="https://w3id.org/ejp-rd/vocabulary#VPDiscoverable"/>
+        <rdfs:range rdf:resource="https://w3id.org/ejp-rd/vocabulary#VPInvisible"/>
         <rdfs:comment>the property linking a resource to an indication of its willingness to be indexed by the VP</rdfs:comment>
         <rdfs:label>vpConnection</rdfs:label>
     </owl:ObjectProperty>
