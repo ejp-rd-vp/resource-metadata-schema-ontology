@@ -5,7 +5,7 @@ ejprd:PatientRegistry,Patient registry,,,class,dcat:Resource,,,
 ejprd:Guideline,Guideline,,,class,dcat:Resource,,,
 ejprd:VPConnection,VPConnection,,true,class,duo:DUO_0000017,,,
 ejprd:vpConnection,vpConnection,the property linking a resource to an indication of its willingness to be indexed by the VP,,owl:ObjectProperty,,,dcat:Resource,ejprd:VPDiscoverable
-ejprd:VPDiscoverable,VPDiscoverable,,,class,http://purl.obolibrary.org/obo/IAO_0000033,,,
+ejprd:VPDiscoverable,VPDiscoverable,"This property has now been deprecated, but it will contunue to resolve until all VP resources have updated",true,class,http://purl.obolibrary.org/obo/IAO_0000033,,,
 ejprd:VPBeacon2_individuals,VPBeacon2_individuals,The annotated resource (always a DataService) provides the Beacon2 /individuals interface.,,class,edam:operation_2421,,,
 ejprd:VPBeacon2_catalog,VPBeacon2_catalog,The annotated resource (always a DataService) provides the Beacon2 /catalog interface.,,class,edam:operation_2421,,,
 ejprd:VPBeacon2_biosamples,VPBeacon2_biosamples,The annotated resource (always a DataService) provides the Beacon2 /biosamples interface.,,class,edam:operation_2421,,,
@@ -16,4 +16,5 @@ ejprd:personalData,personalData,,,owl:DatatypeProperty,,duo:RO_0000087,dcat:Reso
 ejprd:populationCoverage,populationCoverage,,,owl:DatatypeProperty,,schema:populationType,dcat:Resource,xsd:string
 vcard:hasEmail,hasEmail,,,owl:DatatypeProperty,,,vcard:Kind,xsd:string
 vcard:hasTelephone,hasTelephone,,,owl:DatatypeProperty,,,vcard:Kind,xsd:string
-ejprd:PhenotypeFrequency,PhenotypeFrequency,"A service that executes the ""phenotype frequency"" L2 demonstrator - how often does a phenotype or symptom appear in the dataset (on a per-patient basis)",,class,edam:operation_0224,,,
+ejprd:PhenotypeFrequency,PhenotypeFrequency,,,class,edam:operation_0224,,,
+ejprd:VPInvisible,VPInvisible,A resources registered in the FDP Index wishes to not appear in the VP Portal,,class,http://purl.obolibrary.org/obo/IAO_0000033,,,

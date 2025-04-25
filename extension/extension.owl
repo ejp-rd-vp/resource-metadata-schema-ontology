@@ -110,7 +110,6 @@
 
     <owl:Class rdf:about="https://w3id.org/ejp-rd/vocabulary#PhenotypeFrequency">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_0224"/>
-        <rdfs:comment>A service that executes the &quot;phenotype frequency&quot; L2 demonstrator - how often does a phenotype or symptom appear in the dataset (on a per-patient basis)</rdfs:comment>
         <rdfs:label>PhenotypeFrequency</rdfs:label>
     </owl:Class>
     
@@ -190,7 +189,19 @@
 
     <owl:Class rdf:about="https://w3id.org/ejp-rd/vocabulary#VPDiscoverable">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
+        <rdfs:comment>This property has now been deprecated, but it will contunue to resolve until all VP resources have updated</rdfs:comment>
         <rdfs:label>VPDiscoverable</rdfs:label>
+        <owl:deprecated>true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/ejp-rd/vocabulary#VPInvisible -->
+
+    <owl:Class rdf:about="https://w3id.org/ejp-rd/vocabulary#VPInvisible">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
+        <rdfs:comment>A resources registered in the FDP Index wishes to not appear in the VP Portal</rdfs:comment>
+        <rdfs:label>VPInvisible</rdfs:label>
     </owl:Class>
     
 
